@@ -1,0 +1,163 @@
+{
+ "id": "c01",
+ "type": "cloze",
+ "title": "A Summer at the Nursing Home",
+ "genre": "記敘文",
+ "level": "高三",
+ "style": "高考風",
+ "minutes": 15,
+ "intro": "一段被迫開始的志願服務，如何變成最珍貴的回憶？",
+ "passage": "The first time I stepped into Sunshine Nursing Home, I was seventeen and convinced that the eight weeks of community service ahead would feel endless. I had signed up only because my mother insisted that I [[1]] part of my summer holiday helping others.\nAt the entrance, a nurse named Mrs. Chen greeted me and handed me a timetable. My job sounded simple: read newspapers to the elderly, help at mealtimes, and try to [[2]] shy residents into conversation. It seemed easy enough.\nMy first 'client' was Mr. Lin, a retired teacher who rarely spoke. Day after day I sat beside him, filling the silence with stories about school, exams and my plans for university. He never responded; his eyes remained [[3]] on the window. I began to wonder whether my visits were [[4]] any difference at all.\nThen, one rainy afternoon, I brought an old poetry book from his shelf and read aloud. Halfway through a poem, a low voice [[5]] me: 'That is how my wife and I met — in a poetry club, in 1962.' I nearly [[6]] the book. For the next hour, Mr. Lin talked about his youth, his students and the woman he had loved for half a century.\nFrom that day on, our sessions changed. He began to [[7]] my arrival, waving from the doorway before I even knocked. More importantly, I stopped seeing volunteering as a duty. I came to [[8]] that the elderly do not simply need to be served; they need to be heard.\nOn my last day, Mrs. Chen thanked me and said the home always needed young volunteers. I promised to return. What had begun as a duty slowly [[9]] into something I truly looked forward to — a bond that I still [[10]] years later.\nPeople often ask what I gained from those eight weeks. The answer is not on my CV but in my character: patience, empathy, and the [[11]] that a small act — reading a poem, lending an ear — can [[12]] someone's entire day. If you ever have the chance to serve, take it. The hours you give away may turn out to be the most [[13]] hours of your life.\nVolunteering, I learned, is a two-way street. I went there to give; I came home [[14]]. And that, perhaps, is the greatest [[15]] of all.",
+ "questions": [
+  {
+   "options": [
+    "devote",
+    "spend",
+    "waste",
+    "save"
+   ],
+   "answer": 1,
+   "note": "spend + 時間 + doing sth. 是固定搭配；devote 需接 devote...to doing；waste（浪費）、save（節省）與「幫助他人」的正面語境矛盾。"
+  },
+  {
+   "options": [
+    "draw",
+    "pull",
+    "drag",
+    "attract"
+   ],
+   "answer": 0,
+   "note": "draw sb. into conversation 為固定搭配，意為「引導某人加入交談」；attract 不與 into conversation 連用；drag（硬拉）帶貶義；pull 缺少「巧妙引導」之意。"
+  },
+  {
+   "options": [
+    "tied",
+    "put",
+    "fixed",
+    "laid"
+   ],
+   "answer": 2,
+   "note": "remain fixed on 意為「目光固定在……」，描寫他一直望著窗外的失神狀態；put、laid 不與 remained 搭配；tied 通常接 to。"
+  },
+  {
+   "options": [
+    "making",
+    "taking",
+    "doing",
+    "bringing"
+   ],
+   "answer": 0,
+   "note": "make a difference 為固定短語「產生影響」；前文用過去進行時 were，故填 making；take/do/bring 均不與 difference 搭配。"
+  },
+  {
+   "options": [
+    "disappointed",
+    "greeted",
+    "interrupted",
+    "ignored"
+   ],
+   "answer": 2,
+   "note": "作者正在朗讀，一個低沉的聲音突然說話，應是「打斷」我；greeted（打招呼）與半路插話不符；ignored 語法上可接 me 但語意矛盾。"
+  },
+  {
+   "options": [
+    "threw",
+    "hid",
+    "dropped",
+    "shut"
+   ],
+   "answer": 2,
+   "note": "聽到意料之外的事，我「幾乎拿不住書」，nearly dropped the book 表達驚訝；threw（主動扔）、hid、shut 與驚訝的反應不符。"
+  },
+  {
+   "options": [
+    "announce",
+    "ignore",
+    "escape",
+    "await"
+   ],
+   "answer": 3,
+   "note": "後文「我還沒敲門就從門口揮手」說明他開始「盼望、等候」我的到來；announce、ignore、escape 均與揮手歡迎的畫面矛盾。"
+  },
+  {
+   "options": [
+    "admit",
+    "predict",
+    "realize",
+    "promise"
+   ],
+   "answer": 2,
+   "note": "「老人不只需要被服務，更需要被傾聽」是作者領悟的道理，came to realize（漸漸意識到）最貼切；predict（預測）、promise（承諾）不合邏輯。"
+  },
+  {
+   "options": [
+    "put",
+    "brought",
+    "divided",
+    "turned"
+   ],
+   "answer": 3,
+   "note": "turn into 意為「轉變成」，呼應「起初是義務，後來變成期待」的轉折；put、brought、divided 均不與 into 搭配表示轉變。"
+  },
+  {
+   "options": [
+    "question",
+    "forget",
+    "doubt",
+    "treasure"
+   ],
+   "answer": 3,
+   "note": "全篇感情基調是溫暖正面，「多年後仍然珍藏」的紐帶；question、forget、doubt 都是消極動詞，與 a bond I still... 矛盾。"
+  },
+  {
+   "options": [
+    "fear",
+    "doubt",
+    "belief",
+    "regret"
+   ],
+   "answer": 2,
+   "note": "the belief that... 意為「……的信念」，that 後接正面內容「小舉動能照亮別人的一天」；fear、doubt、regret 均與正面內容衝突。"
+  },
+  {
+   "options": [
+    "darken",
+    "shorten",
+    "brighten",
+    "spend"
+   ],
+   "answer": 2,
+   "note": "brighten one's day「照亮某人的一天」；darken 語意相反；shorten one's day 搭配怪異；spend 主語應是人。"
+  },
+  {
+   "options": [
+    "boring",
+    "tiring",
+    "rewarding",
+    "stressful"
+   ],
+   "answer": 2,
+   "note": "呼應全文正面結尾：付出的小時數反而成為「最有收穫的」時光；boring、tiring、stressful 均與作者從中獲得成長的敘述矛盾。"
+  },
+  {
+   "options": [
+    "richer",
+    "poorer",
+    "weaker",
+    "hungrier"
+   ],
+   "answer": 0,
+   "note": "give 與 come home richer 形成對比修辭：去付出，回家時精神上反而「更富有」；其余三項均無法構成這種對照。"
+  },
+  {
+   "options": [
+    "reward",
+    "punishment",
+    "burden",
+    "expense"
+   ],
+   "answer": 0,
+   "note": "全文升華段：付出本身就是最大的「回報」；punishment、burden、expense 均為負面名詞，與 greatest...of all 的語境不符。"
+  }
+ ]
+}

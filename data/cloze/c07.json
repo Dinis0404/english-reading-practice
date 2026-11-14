@@ -1,0 +1,163 @@
+{
+ "id": "c07",
+ "type": "cloze",
+ "title": "The Octopus: An Alien Mind",
+ "genre": "科普",
+ "level": "進階",
+ "style": "通用",
+ "minutes": 15,
+ "intro": "章魚有三顆心臟、藍色血液，還有一個分布全身的「大腦」。牠們有多聰明？",
+ "passage": "If you want to meet an intelligent alien, you do not need a spaceship. You need a [[1]] permit and a tide pool. The octopus, which last shared a common ancestor with humans more than 500 million years ago, has evolved a form of intelligence so [[2]] from ours that scientists describe it as the closest we can come to studying an alien mind.\nThe most obvious difference is architecture. In vertebrates, most thinking happens in the brain; in the octopus, roughly two thirds of its neurons are [[3]] through its eight arms. Each arm can taste, touch and make decisions [[4]], and a severed arm will still reach for food. This raises questions that keep philosophers busy: when an octopus's arms [[5]] problems, who exactly is solving them?\nLaboratory studies hint at how much is going on inside. Octopuses learn to open childproof pill bottles, remember which of two mazes leads to food, and [[6]] the lights in their tanks by squirting water at bulbs — apparently for fun. At a New Zealand aquarium, an octopus named Inky became famous for [[7]]: he slipped out of a gap in his tank lid, crossed the floor at night, and escaped down a fifty-metre drainpipe to the sea.\nYet intelligence of this kind [[8]] a serious ethical question for zoos and researchers. Animals that solve puzzles also get bored, and boredom in a [[9]] animal looks like stress: ink clouds, lost arms, refusal to eat. Several European countries now require special licences to keep octopuses, and some aquariums are redesigning tanks to make them more [[10]].\nTheir short lives add a melancholy note. Most species live only one or two years, dying shortly after reproducing. Evolution, it seems, was [[11]] to spend resources on a big brain and a long childhood at the same time; nature chose the brain. Each animal must therefore [[12]] nearly everything alone, without parents or teachers — building its brilliant, temporary mind from [[13]].\nThat fact makes their achievements more [[14]], not less. A human child learns within a culture that stores knowledge across generations; an octopus starts from zero and still works out the world. Perhaps the surest sign of an [[15]] mind is not what it knows, but how much it can manage without ever being told.",
+ "questions": [
+  {
+   "options": [
+    "travelling",
+    "driving",
+    "trading",
+    "fishing"
+   ],
+   "answer": 3,
+   "note": "接觸潮汐池裡的章魚需要「捕撈/垂釣」許可，fishing permit 呼應科學研究的場景；travelling、driving、trading 與潮池無關。"
+  },
+  {
+   "options": [
+    "similar",
+    "inferior",
+    "different",
+    "superior"
+   ],
+   "answer": 2,
+   "note": "下文 closest we can come to studying an alien mind 點明章魚智力與人類「差異極大」；similar 與 alien mind 矛盾；inferior、superior 帶比較級含義但文中無高下之分。"
+  },
+  {
+   "options": [
+    "destroyed",
+    "locked",
+    "measured",
+    "distributed"
+   ],
+   "answer": 3,
+   "note": "三分之二的神經元「分布」在八條腕足中——呼應後文每條腕足能獨立決策；distributed 與下文獨立性一致；locked 與 make decisions 矛盾。"
+  },
+  {
+   "options": [
+    "reluctantly",
+    "independently",
+    "occasionally",
+    "carefully"
+   ],
+   "answer": 1,
+   "note": "「各腕足能獨立」嚐味、觸碰並做決定，呼應 two thirds of neurons 分布於腕足；independently 為核心概念；reluctantly、occasionally 與下文 severed arm still reaches 矛盾。"
+  },
+  {
+   "options": [
+    "create",
+    "solve",
+    "avoid",
+    "cause"
+   ],
+   "answer": 1,
+   "note": "腕足「解決」問題時，究竟是誰在解決？solve problems 呼應哲學問題；create、cause 會使哲學問題失去趣味；avoid 與 making decisions 矛盾。"
+  },
+  {
+   "options": [
+    "look after",
+    "turn off",
+    "break into",
+    "get over"
+   ],
+   "answer": 1,
+   "note": "章魚向燈泡噴水以「關掉」水箱燈光，且 apparently for fun；turn off the lights 為固定搭配；break into（闖入）與 bulbs 不搭。"
+  },
+  {
+   "options": [
+    "dreaming",
+    "hunting",
+    "escaping",
+    "copying"
+   ],
+   "answer": 2,
+   "note": "Inky 溜出水箱、爬過地板、順排水管回到大海——著名「越獄」事件；escaping 呼應 slipped out...escaped；hunting、copying 與事件細節不符。"
+  },
+  {
+   "options": [
+    "settles",
+    "raises",
+    "avoids",
+    "answers"
+   ],
+   "answer": 1,
+   "note": "這種智力「引發」了嚴肅的倫理問題；raises a question 為固定搭配；settles、answers 與 keep philosophers busy、需要特別許可等展開矛盾。"
+  },
+  {
+   "options": [
+    "wild",
+    "curious",
+    "captive",
+    "social"
+   ],
+   "answer": 2,
+   "note": "「被圈養」的動物感到無聊時表現為應激：噴墨、斷腕、拒食；captive 呼應 zoos、tanks 的語境；wild、social 與水族館的場景不符。"
+  },
+  {
+   "options": [
+    "expensive",
+    "crowded",
+    "stimulating",
+    "artificial"
+   ],
+   "answer": 2,
+   "note": "水族館重新設計水箱使其更「有刺激、不無聊」；stimulating 與解決 boredom 的問題呼應；crowded、artificial 會加重壓力；expensive 無關。"
+  },
+  {
+   "options": [
+    "willing",
+    "eager",
+    "unable",
+    "designed"
+   ],
+   "answer": 2,
+   "note": "演化「無法」同時支付發達大腦與漫長童年的資源成本；unable to spend...at the same time 呼應短壽命的事實；willing、eager 與 melancholy note 矛盾。"
+  },
+  {
+   "options": [
+    "master",
+    "forget",
+    "teach",
+    "question"
+   ],
+   "answer": 0,
+   "note": "章魚必須獨自「掌握」幾乎一切，呼應 without parents or teachers；forget、question 與 building its brilliant mind 矛盾；teach 主語應是人。"
+  },
+  {
+   "options": [
+    "scratch",
+    "memory",
+    "instinct",
+    "warning"
+   ],
+   "answer": 0,
+   "note": "from scratch 為固定短語「從零開始」，呼應 must master nearly everything alone；from memory（憑記憶）與無師自通矛盾。"
+  },
+  {
+   "options": [
+    "ordinary",
+    "obvious",
+    "useful",
+    "impressive"
+   ],
+   "answer": 3,
+   "note": "無師自通的成就使其更加「令人敬佩」，more impressive, not less 為讓步強調；ordinary、obvious 削弱論證，useful 偏離智力主題。"
+  },
+  {
+   "options": [
+    "obedient",
+    "ordinary",
+    "artificial",
+    "independent"
+   ],
+   "answer": 3,
+   "note": "獨立心智的標誌不是知道多少，而是「無人指導時能應付多少」；independent 呼應 without ever being told；obedient、artificial 與自主性矛盾。"
+  }
+ ]
+}

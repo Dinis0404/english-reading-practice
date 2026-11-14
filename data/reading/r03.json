@@ -1,0 +1,57 @@
+{
+ "id": "r03",
+ "type": "reading",
+ "title": "How Habits Really Work",
+ "genre": "社科",
+ "level": "高三",
+ "style": "通用",
+ "minutes": 8,
+ "intro": "想改掉壞習慣的人，大多輸給了意志力。研究行為科學的學者說：問題不在意志力，在於你沒看懂習慣的結構。",
+ "passage": "Every January, millions of people promise themselves that they will exercise, read more, or stop scrolling their phones before bed. By February, most of those promises are gone. The usual explanation is weakness of character: we simply lack the willpower to keep our resolutions. Researchers who study habit formation tell a different story. Willpower, they argue, is not the engine of lasting change; it is at best the spark. The engine is a loop that the brain builds without our permission.\n\nThe loop has three parts. First, a cue — something in the environment that triggers the behaviour: a time of day, a place, a feeling, the sight of the phone itself. Second, a routine — the behaviour itself: opening the app, lighting the cigarette, grabbing a snack. Third, a reward — something the brain likes: relief, pleasure, a moment of calm. Over time, the brain connects cue to reward so tightly that the routine runs on automatic. By the time you 'decide' to check your phone, the decision has already been made somewhere below consciousness.\n\nThis structure explains why resolutions fail. A resolution targets the routine — 'I will stop checking my phone' — but the cue and the reward are still in place, still hungry. The brain still wants the calm of that little scroll; if the routine is removed without replacement, the pressure builds and the old behaviour returns stronger. Successful habit change, the researchers say, keeps the cue and the reward but swaps the routine: instead of deleting the behaviour, you redirect it. Feeling restless at your desk? The cue fires; the reward sought is a brief mental escape. The old routine says 'phone'. A substitute routine — a short walk, a stretch, a puzzle — can serve the same reward and slowly inherit the cue.\n\nThe science has a humbler lesson for building good habits, too. People imagine that motivation will carry them to the gym three times a week forever. But motivation is weather; habits are climate. The practical strategy is to shrink the behaviour until it is almost laughably small — one push-up, one page, one minute of language practice — and attach it to an existing cue: after I pour my morning coffee, I will do one push-up. The size feels absurd, but absurdity is the point. A tiny habit survives bad days, and a habit that survives bad days is the one that lasts.\n\nNone of this makes change easy, but it makes change mechanical, and mechanical is manageable. The brain that built the loop can rebuild it, provided it is given a map. The map is not a slogan like 'try harder'. The map is the loop itself: notice the cue, name the reward, design a routine that serves it — and then repeat the new circuit until it, too, runs without you.",
+ "questions": [
+  {
+   "q": "According to the researchers, why do most New Year resolutions fail?",
+   "options": [
+    "They attack the routine while leaving the cue and reward untouched",
+    "People set goals that are too ambitious to achieve within a year",
+    "Willpower naturally weakens as the year progresses",
+    "The brain automatically rejects any behaviour we force on it"
+   ],
+   "answer": 0,
+   "note": "定位第三段：決心只針對 routine（『我不再滑手機』），但 cue 與 reward 仍在其位，壓力積累後舊行為更強地回歸。B、C 均以『目標太大/意志力衰退』解釋，與文中的結構分析不符；D 過度推論。"
+  },
+  {
+   "q": "The phrase 'Motivation is weather; habits are climate' is used to show that ______.",
+   "options": [
+    "motivation, like climate, changes slowly over many years",
+    "good habits, like weather, affect our mood from day to day",
+    "motivation comes and goes, so systems built on it cannot be relied upon",
+    "people should check the weather before going to the gym"
+   ],
+   "answer": 2,
+   "note": "定位第四段：動力如天氣般多變，習慣才是穩定氣候；故策略是把行為縮小到能撐過壞日子的一分鐘。作者用比喻說明『靠動力的系統不可靠』。B 項把比喻對象反轉；C 項張冠李戴；D 項字面化誤解。"
+  },
+  {
+   "q": "Why does the author suggest starting with 'one push-up'?",
+   "options": [
+    "Small exercises are safer for beginners than full workouts",
+    "One push-up provides the same health benefits as a long routine",
+    "A tiny habit can survive unmotivated days and therefore last long enough to grow",
+    "Absurd goals make people laugh, which reduces stress"
+   ],
+   "answer": 2,
+   "note": "定位第四段：The size feels absurd, but absurdity is the point. A tiny habit survives bad days, and a habit that survives bad days is the one that lasts——微小是為了在無動力的日子也能維持，進而成為持久的習慣。B 健康安全、C 效果等同、D 歡笑減壓皆無中生有。"
+  },
+  {
+   "q": "What can be inferred from the last paragraph?",
+   "options": [
+    "The brain is capable of destroying bad habits once and for all",
+    "Mechanical repetition is more important than any design of behaviour",
+    "People who fail to change simply cannot read the map",
+    "Lasting change comes from understanding and redesigning the habit loop, not from slogans"
+   ],
+   "answer": 3,
+   "note": "定位末段：The map is not a slogan like 'try harder'. The map is the loop itself: notice the cue, name the reward, design a routine——持久的改變來自看懂並重新設計習慣迴路，而非口號。A『一勞永逸』無據（迴路可重建也可能復發）；B『機械重複比設計重要』曲解 mechanical is manageable；D 對比喻作字面解讀。"
+  }
+ ]
+}

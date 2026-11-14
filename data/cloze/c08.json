@@ -1,0 +1,163 @@
+{
+ "id": "c08",
+ "type": "cloze",
+ "title": "The Words We Teach Ourselves",
+ "genre": "議論文",
+ "level": "進階",
+ "style": "DSE風",
+ "minutes": 15,
+ "intro": "「我數學不行」「我沒有語言天分」——這些話本身可能就是問題所在。",
+ "passage": "Every classroom has a student who announces, with practiced confidence, 'I'm just bad at maths.' The claim is presented as a fact about the brain, but it is usually a fact about a [[1]] — a sentence first spoken by a frustrated ten-year-old and repeated for years afterwards.\nPsychologists call the two ways people understand ability 'fixed mindset' and 'growth mindset'. Those with a fixed mindset treat intelligence as a [[2]]: you have a certain amount, and your job is to prove it. Those with a growth mindset treat ability as something [[3]] through effort, strategy and help from others. The difference sounds like a slogan, but its effects are measurable.\nIn one large study, researchers followed hundreds of students across a school year. When students [[4]] difficult material, the two groups began to [[5]]. Fixed-mindset students read failure as a verdict: the struggle itself became evidence of a missing [[6]], and effort started to look pointless. Growth-mindset students read the same struggle as information — a signal about which [[7]] were not working yet. Same test, same score, completely different story.\nThe stories matter because they direct behaviour. A student who believes ability is fixed [[8]] challenges, hides mistakes and avoids asking questions, since each of these might reveal the limit. A student who believes ability grows does the opposite: mistakes become [[9]], and help becomes a tool rather than a [[10]].\nCritics point out that mindset is not magic. A positive attitude cannot [[11]] a poor school, a lack of sleep or an unfair system. This is [[12]] — and yet it misses the point. The growth mindset was never meant to replace good teaching; it was meant to explain why two students with [[13]] resources can travel different distances. Attitude does not create ability out of nothing. It determines whether the ability you already have will be [[14]].\nThe practical suggestion is [[15]] simple: change the sentence. 'I'm bad at maths' becomes 'I haven't found the method that works for me yet.' The word 'yet' is doing quiet, powerful work. It keeps the door open — and a student who leaves the door open may, one day, walk through it.",
+ "questions": [
+  {
+   "options": [
+    "number",
+    "sentence",
+    "dream",
+    "grade"
+   ],
+   "answer": 1,
+   "note": "『我數學不行』是一句十歲孩子受挫時說出、此後不斷重複的「話」——a fact about a sentence；sentence 呼應 first spoken...repeated；number、grade 偏離語言主題。"
+  },
+  {
+   "options": [
+    "debt",
+    "gift",
+    "tool",
+    "game"
+   ],
+   "answer": 1,
+   "note": "固定型思維把智力視為天生的「天賦」：有多少是多少，任務是證明它；gift 呼應 a certain amount；tool、game 屬成長型視角；debt 無依據。"
+  },
+  {
+   "options": [
+    "developed",
+    "inherited",
+    "measured",
+    "invented"
+   ],
+   "answer": 0,
+   "note": "成長型思維視能力為可透過努力「發展」的東西；developed through effort 呼應下文 effort, strategy and help；inherited（天生遺傳）屬固定型。"
+  },
+  {
+   "options": [
+    "enjoyed",
+    "created",
+    "encountered",
+    "avoided"
+   ],
+   "answer": 2,
+   "note": "當學生「遇到」難懂的材料時，兩組開始分化；encountered difficult material 合乎研究情境；enjoyed 與分化實驗矛盾；created、avoided 與下文 struggle 的描述不符。"
+  },
+  {
+   "options": [
+    "unite",
+    "improve",
+    "agree",
+    "separate"
+   ],
+   "answer": 3,
+   "note": "面對困難，兩組學生開始「分化」走上不同道路；separate 呼應下文對兩組不同反應的平行描述；unite、agree 與 completely different story 矛盾。"
+  },
+  {
+   "options": [
+    "method",
+    "excuse",
+    "talent",
+    "chance"
+   ],
+   "answer": 2,
+   "note": "固定型學生把掙扎讀作「天賦缺失」的證據；a missing talent 呼應 verdict（判決）的比喻；method 屬成長型語彙；excuse、chance 與 evidence 語義不符。"
+  },
+  {
+   "options": [
+    "teachers",
+    "subjects",
+    "answers",
+    "strategies"
+   ],
+   "answer": 3,
+   "note": "成長型學生把掙扎看作「哪些方法還不管用」的訊號；strategies 呼應 through effort, strategy and help；teachers、subjects 過於具體；answers 與 not working yet 搭配欠佳。"
+  },
+  {
+   "options": [
+    "seeks",
+    "avoids",
+    "welcomes",
+    "enjoys"
+   ],
+   "answer": 1,
+   "note": "相信能力固定的人「迴避」挑戰、隱藏錯誤——因為這些可能暴露極限；avoids 與 hides mistakes, avoids asking questions 平行；seeks、welcomes、enjoys 為成長型行為。"
+  },
+  {
+   "options": [
+    "shame",
+    "proof",
+    "information",
+    "punishment"
+   ],
+   "answer": 2,
+   "note": "成長型學生把錯誤當作「資訊」（哪裡需要改進），呼應上文 read the same struggle as information；shame、punishment 與正面態度矛盾。"
+  },
+  {
+   "options": [
+    "tool",
+    "threat",
+    "habit",
+    "reward"
+   ],
+   "answer": 1,
+   "note": "求助是工具而非「威脅」——tool rather than a threat 與前一空 mistakes become information 平行；tool 已出現在 rather than 前後對照中；habit、reward 與求助的心理障礙無關。"
+  },
+  {
+   "options": [
+    "measure",
+    "explain",
+    "double",
+    "replace"
+   ],
+   "answer": 3,
+   "note": "正面態度無法「取代」糟糕的學校、睡眠不足或不公平的制度；replace 呼應下文 was never meant to replace good teaching；measure、explain、double 與批評的內容不符。"
+  },
+  {
+   "options": [
+    "true",
+    "rare",
+    "harmless",
+    "strange"
+   ],
+   "answer": 0,
+   "note": "批評者的觀點是「正確的」（true）——心態不是萬能；呼應 And yet it misses the point 的讓步轉折；harmless、strange 與讓步邏輯矛盾。"
+  },
+  {
+   "options": [
+    "equal",
+    "limited",
+    "extra",
+    "wasted"
+   ],
+   "answer": 0,
+   "note": "「資源相同」的兩個學生可能走出不同距離——這正是心態的作用；equal resources 呼應實驗對照的邏輯；extra、wasted 削弱對比力量。"
+  },
+  {
+   "options": [
+    "rewarded",
+    "replaced",
+    "realized",
+    "remembered"
+   ],
+   "answer": 2,
+   "note": "態度決定你已有的能力能否被「發揮/獲得回報」；be rewarded 呼應 effort 是否值得的邏輯；replaced 與語境矛盾；remembered 偏離主題。"
+  },
+  {
+   "options": [
+    "surprisingly",
+    "deceptively",
+    "deliberately",
+    "conveniently"
+   ],
+   "answer": 1,
+   "note": "建議聽起來簡單得「令人懷疑其效果」（deceptively simple：看似簡單實則深刻），呼應下文 the word 'yet' is doing quiet, powerful work；deliberately、conveniently 與簡單性無關。"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "r04",
+ "type": "reading",
+ "title": "The Museum Without Walls",
+ "genre": "文化",
+ "level": "高三",
+ "style": "學測風",
+ "minutes": 8,
+ "intro": "當一座博物館把藏品全部搬到網上，它失去的是什麼，得到的又是什麼？",
+ "passage": "In 2019, the Rijksmuseum in Amsterdam did something unusual: it published ultra-high-resolution images of more than 700,000 artworks online, free of charge, and invited the world to make whatever it liked with them. Anyone could zoom into Rembrandt's Night Watch until the brushstrokes became a landscape, or download a Vermeer and print it on a T-shirt. Museum professionals watched nervously. Isn't the museum's job, after all, to protect the sacred experience of standing before an original?\n\nThe experiment raised an old question in a new form. Museums have always claimed two jobs that partly contradict each other: preserving objects and sharing them. For most of the twentieth century, sharing meant travelling exhibitions, school visits and catalogues — slow, expensive channels that reached a thin slice of the public. Digital access is different in kind, not just in degree. A teenager in a mountain village now stands closer to the Night Watch's brushwork than a tourist standing in front of the painting itself, blocked by a barrier, a crowd and thirty metres of distance.\n\nSceptics answer that closeness is not the point. A painting is an object in a room: it has scale, texture and a presence that no screen can carry; the light changes as you move; the crowd breathes with you. Researchers who study visitor behaviour do report that people in galleries often stand still before artworks for only seconds, distracted and audio-guide-fatigued — and yet those same visitors describe encounters with originals as life-changing far more often than they describe online browsing. Something happens in a room that does not happen on a sofa, even if we cannot fully name it.\n\nBut the binary — digital versus real — may be the wrong frame. What the data from digital museums increasingly shows is not replacement but expansion. The Rijksmuseum found that online visitors who later travelled to Amsterdam went straight to the paintings they had studied on screens, arriving as prepared viewers rather than as tourists; online study had not spoiled the surprise but deepened the hunger. Meanwhile, millions who will never reach Amsterdam gained something they had never had: not the museum, but access to its contents.\n\nPerhaps, then, the museum of the future is not a building that publishes a website, nor a website pretending to be a building, but a loop: rooms that feed screens, screens that feed rooms. The object in the gallery gains a context that travels; the image on the screen gains a destination worth visiting. Standing in a quiet room before a real canvas will always be irreplaceable — for those who can stand there. For everyone else, and for the curiosity that precedes every visit, the wall-less museum is not a betrayal of the original. It is the original's most obedient servant.",
+ "questions": [
+  {
+   "q": "Why do 'museum professionals' watch nervously in paragraph 1?",
+   "options": [
+    "They worry that digital images will damage the physical paintings over time",
+    "Free digital access seems to conflict with the museum's traditional role of guarding the original experience",
+    "They believe printing artworks on T-shirts violates copyright law",
+    "They fear visitors will no longer pay for museum tickets"
+   ],
+   "answer": 1,
+   "note": "定位第一段末的反問：Isn't the museum's job... to protect the sacred experience of standing before an original?——免費開放的高清數位影像與「守護原作體驗」的傳統職能形成衝突，故而緊張。B 物理損害、C 版權、D 門票收入均無中生有。"
+  },
+  {
+   "q": "The author mentions the teenager in a mountain village mainly to ______.",
+   "options": [
+    "show that digital access changes the situation in kind, not merely in degree",
+    "argue that museums should relocate their collections to rural areas",
+    "prove that screens can fully replace the experience of standing before art",
+    "criticize the expensive travelling exhibitions of the twentieth century"
+   ],
+   "answer": 0,
+   "note": "定位第二段末：山村少年與《夜巡》筆觸的距離，比站在畫前的遊客更近——例證數位接觸是 different in kind, not just in degree 的質變。B、C、D 均偏離例證的功能。"
+  },
+  {
+   "q": "What do researchers' findings about gallery visitors suggest?",
+   "options": [
+    "The value of encountering originals persists even though visitors often view them briefly",
+    "Physical visits are a waste of time because people only look for seconds",
+    "Audio guides are the main reason visitors fail to appreciate artworks",
+    "Online browsing produces stronger memories than physical encounters"
+   ],
+   "answer": 0,
+   "note": "定位第三段：訪客常只停留數秒、被導覽分神——然而同一批人描述與原作的相遇 life-changing 的頻率遠高於線上瀏覽。說明原作體驗的價值依然存在。B 斷章取義；C 歸因錯誤（文中僅列現象）；D 與原文相反。"
+  },
+  {
+   "q": "What does the author mean by calling the future museum 'a loop: rooms that feed screens, screens that feed rooms'?",
+   "options": [
+    "Physical galleries and digital platforms will support and strengthen each other",
+    "Museums will rotate artworks between buildings and websites regularly",
+    "Screens in museum rooms will replace human tour guides",
+    "Rooms without screens will gradually disappear from museums"
+   ],
+   "answer": 0,
+   "note": "定位第四、五段：線上研究使造訪者 prepared viewers（加深渴望），線上內容使無法到場者獲得 access——實體與數位互為滋養的循環，而非互相取代。B 輪換、C 取代導覽、D 消失均屬字面曲解。"
+  }
+ ]
+}

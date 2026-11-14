@@ -1,0 +1,57 @@
+{
+ "id": "r02",
+ "type": "reading",
+ "title": "The Rainbow Under the Sea",
+ "genre": "科普",
+ "level": "高三",
+ "style": "通用",
+ "minutes": 8,
+ "intro": "珊瑚礁只佔海洋面積不到 1%，卻養育著四分之一的海洋物種。它們成功的秘密是一場持續了兩億年的合作。",
+ "passage": "Seen from above, a healthy coral reef looks like a rainbow that has fallen into the sea. Seen from below, it is something stranger: an animal colony wearing the colours of a garden. Corals are, in fact, animals — relatives of jellyfish and sea anemones — yet they behave in a way that seems more plant than beast. The explanation for this behaviour is one of the oldest partnerships on Earth.\n\nInside the tissue of nearly every reef-building coral live millions of single-celled algae. The coral provides the algae with shelter and with the raw materials of photosynthesis: sunlight, accessed through transparent tissue, and nutrients from the coral's own waste. The algae, in return, produce sugars through photosynthesis and hand over up to ninety percent of them to their host. This invisible agriculture is why reefs grow in clear, sunlit, nutrient-poor water — water that should be a desert — and why the reef's famous colours are actually the colours of microscopic plants.\n\nThe partnership explains the reef's productivity, and it also explains its fragility. When sea temperatures rise even one degree above the seasonal norm for a few weeks, the relationship breaks down. The algae produce harmful molecules in the heat, and the coral, in an act that looks like self-harm, expels them. A reef without its algae is a colony of starving animals in transparent bodies, and through them we see white bone. This is coral bleaching. Bleached corals are not dead, but they are starving, and if the water cools quickly enough, the algae return and the reef recovers. If not, death follows within weeks.\n\nThe scale of recent bleaching has shocked even veteran researchers. In 2016, a marine heatwave swept across the Great Barrier Reef, and aerial surveys found that more than half of its northern reefs were severely bleached. Recovery, however, is not simply a matter of waiting for cooler years. Reefs need time — a decade or more — between heatwaves to rebuild their populations of fish and algae. As heatwaves arrive more frequently, that recovery window is shrinking, and reefs are increasingly being asked to heal between blows.\n\nScientists are not, however, simply watching. Some are mapping which corals survived 2016 and breeding them with more heat-tolerant strains; others are seeding damaged reefs with coral raised in underwater nurseries. Such efforts are promising but small. The arithmetic of the ocean is unforgiving: nurseries can repair a bay; only the climate itself can repair a sea. What corals are teaching us, perhaps, is that the most complex partnerships are also the most dependent on conditions — and that even a two-hundred-million-year-old cooperation can be undone by a single degree.",
+ "questions": [
+  {
+   "q": "According to the passage, corals seem 'more plant than beast' because they ______.",
+   "options": [
+    "depend on algae living inside them to produce most of their food",
+    "grow from the seabed and never move like other animals",
+    "absorb sunlight directly to make their own sugars",
+    "feed on the nutrients carried by ocean currents"
+   ],
+   "answer": 0,
+   "note": "定位第二段：珊瑚組織內共生的蟲黃藻行光合作用產生糖分，並將最多九成交給珊瑚——這種「看不見的農業」使珊瑚像植物一樣依靠光合作用維生。C 項張冠李戴：行光合作用的是藻類而非珊瑚本身；B、D 無中生有。"
+  },
+  {
+   "q": "What happens during coral bleaching?",
+   "options": [
+    "Corals turn white because their transparent tissue dies first",
+    "Algae leave the coral to look for cooler water on their own",
+    "Corals drive out their algae when the algae become harmful in the heat",
+    "Corals stop producing sugars but continue to feed on plankton"
+   ],
+   "answer": 2,
+   "note": "定位第三段：高溫使藻類產生有害分子，珊瑚 in an act that looks like self-harm, expels them（驅逐藻類）——白化是排藻行為的結果。B 項因果顛倒：白化是因透明組織下沒有了藻色；C 項是「珊瑚排出」而非藻類自行離開；D 項白化中的珊瑚是飢餓的（starving）。"
+  },
+  {
+   "q": "Why does the author say reefs are 'increasingly being asked to heal between blows'?",
+   "options": [
+    "Reefs must now survive without any help from scientists or nurseries",
+    "Fish populations return faster than before, placing pressure on algae",
+    "Each new bleaching event is more severe than all previous ones",
+    "Heatwaves now return so often that reefs have too little time to recover"
+   ],
+   "answer": 3,
+   "note": "定位第四段末：礁體需要十年以上重建藻類與魚類族群，但熱浪更頻繁地到來，recovery window is shrinking——恢復期被壓縮。A 與第五段科學家正在努力相矛盾；C 因果錯置；C『更嚴重』文中未說，是『更頻繁』。"
+  },
+  {
+   "q": "What is the main message of the last paragraph?",
+   "options": [
+    "Scientists have already found effective ways to rebuild the Great Barrier Reef",
+    "Corals will adapt to rising temperatures given enough nursery support",
+    "Human breeding and nursery projects are useful but cannot substitute for climate action",
+    "Aerial surveys remain the most reliable tool for monitoring reef health"
+   ],
+   "answer": 2,
+   "note": "定位末段：育種與海底苗圃 promising but small，nurseries can repair a bay; only the climate itself can repair a sea——人工手段有用但規模有限，根本解決靠氣候本身。A『已找到有效方法』過度樂觀；B 與『單靠苗圃不夠』矛盾；D 偏離主旨。"
+  }
+ ]
+}

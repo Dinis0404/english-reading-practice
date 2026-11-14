@@ -1,0 +1,163 @@
+{
+ "id": "c06",
+ "type": "cloze",
+ "title": "Lost on Yushan",
+ "genre": "記敘文",
+ "level": "高三",
+ "style": "通用",
+ "minutes": 15,
+ "intro": "一場大霧、一條走錯的岔路，和一群陌生人的善意。",
+ "passage": "I had planned the hike down to the last minute: a map, two bottles of water, and a promise to return before dark. What I had not planned for was the fog that [[1]] the mountain soon after noon.\nAt first it was harmless, a soft grey veil that made the pine forest look [[2]]. Then it thickened. Within twenty minutes I could see no more than five metres ahead, and the trail — which had been [[3]] marked in my guidebook — now dissolved into wet stone and moss.\nI told myself to stay calm. Hikers are trained to [[4]] the rule: when lost, stop moving. I found a flat rock, sat down, and ate half my sandwich while the fog leaned closer. My phone showed no signal. The temperature was [[5]].\nSomewhere below, water was running — a stream, perhaps. People say always [[6]] a water source when lost, because streams lead to villages. But the slope looked steep and the light was failing. I hesitated, then made my choice: I would follow the sound downward, slowly, testing every step with my walking stick.\nThe fog [[7]] to hide its tricks. Twice I slid on wet leaves; once I nearly stepped over the edge of a drop. Then, as I rounded a rock, I saw something that made my heart jump — a red ribbon, the kind hikers tie to [[8]] their route. Then another. And another, closer together, leading down the slope like stitches through grey cloth.\nI followed them for forty minutes before I heard voices. Three older men in raincoats were [[9]] up the trail, carrying ropes and a thermos. They had tied the ribbons. When I [[10]] that I had come down alone through the fog, they looked at me with a mixture of surprise and gentle disapproval, the way teachers look at students who have cheated luck.\nThey shared hot tea with me, wrapped me in a spare raincoat, and walked me the rest of the way to their village, where someone's wife was already cooking dinner. Nobody asked me to explain myself twice. In the city, help usually comes with a [[11]]; in the mountains, it comes with a bowl of soup and a seat by the stove.\nThe next morning, they drove me to the bus station and refused my money. As the bus pulled away, one of them waved, then turned back to his fields without waiting for a reply. I never learned their full names.\nI still hike. But I have [[12]] two habits since Yushan: I check the forecast three times, and I always carry a roll of red ribbon. Somewhere on the mountain, a [[13]] is walking down through fog, testing each step, following a line of red. If my ribbons can shorten his fear by even ten minutes, then the kindness that was [[14]] to me will have traveled one more turn of the trail.\nMountains offer no [[15]] for a wrong turn; strangers with red ribbons do. What saves a lost hiker is rarely courage. It is preparation, luck, and the kindness of people who leave ribbons in the fog.",
+ "questions": [
+  {
+   "options": [
+    "decorated",
+    "swallowed",
+    "revealed",
+    "warmed"
+   ],
+   "answer": 1,
+   "note": "正午過後大霧「吞沒」了山頭；swallowed 呼應下文 thickened、看不見五米外；decorated、revealed、warmed 均與危機的展開矛盾。"
+  },
+  {
+   "options": [
+    "frightening",
+    "colorful",
+    "peaceful",
+    "crowded"
+   ],
+   "answer": 2,
+   "note": "起初無害：薄霧讓松林顯得「寧靜」——這是暴風雨前的平靜，與 Then it thickened 形成遞進；frightening 與 harmless 矛盾。"
+  },
+  {
+   "options": [
+    "rarely",
+    "hardly",
+    "clearly",
+    "secretly"
+   ],
+   "answer": 2,
+   "note": "嚮導書中「清晰標記」的小徑在霧中消失了，clearly 呼應 now dissolved 的對比；rarely、hardly、secretly 與 guidebook 的可靠性矛盾。"
+  },
+  {
+   "options": [
+    "question",
+    "break",
+    "follow",
+    "teach"
+   ],
+   "answer": 2,
+   "note": "登山訓練要求「遵循」迷路時停止移動的規則；follow the rule 為固定搭配；break（違反）與坐下等待的行為矛盾。"
+  },
+  {
+   "options": [
+    "rising",
+    "steady",
+    "mild",
+    "dropping"
+   ],
+   "answer": 3,
+   "note": "山區黃昏起霧，氣溫正在「下降」，暗示危險加深；dropping 呼應 fog、wet stone 的環境；rising、mild 與緊張氛圍矛盾。"
+  },
+  {
+   "options": [
+    "to leave",
+    "to drink",
+    "to follow",
+    "to touch"
+   ],
+   "answer": 2,
+   "note": "always to follow：人們說迷路時要「沿著」水源走，因為溪流通向村莊；to leave 與原因句矛盾；to drink、to touch 無指引路線的意義。"
+  },
+  {
+   "options": [
+    "refused",
+    "continued",
+    "promised",
+    "forgot"
+   ],
+   "answer": 1,
+   "note": "霧「繼續」捉弄我：兩次滑倒、差點踩空；continued 呼應下文的連續險情；refused、forgot 擬人但不合邏輯。"
+  },
+  {
+   "options": [
+    "record",
+    "share",
+    "mark",
+    "measure"
+   ],
+   "answer": 2,
+   "note": "登山客綁紅布條是為了「標記」路線；mark their route 為固定說法；record、measure 與實際指引功能不符。"
+  },
+  {
+   "options": [
+    "running",
+    "looking",
+    "coming",
+    "driving"
+   ],
+   "answer": 2,
+   "note": "三人帶著繩索沿小徑「向上」走（搜尋），coming up the trail 呼應帶繩索裝備的救援隊；running（奔跑）與山路險滑矛盾；driving 無車可行。"
+  },
+  {
+   "options": [
+    "complained",
+    "apologized",
+    "warned",
+    "explained"
+   ],
+   "answer": 3,
+   "note": "我向他們「解釋」自己是獨自穿越濃霧下山的；explained that 引導賓語從句；complained、warned 與獲救者說明經過的場景不符。"
+  },
+  {
+   "options": [
+    "smile",
+    "form",
+    "delay",
+    "price"
+   ],
+   "answer": 3,
+   "note": "城市裡的幫助通常有「代價/條件」，山裡的幫助伴隨一碗湯；price 與 with a bowl of soup 的對照是全文金句；smile 與 helps comes with a... 搭配不如 price 精準。"
+  },
+  {
+   "options": [
+    "developed",
+    "dropped",
+    "recorded",
+    "taught"
+   ],
+   "answer": 0,
+   "note": "我「養成了」兩個習慣：查看天氣三次、隨身帶紅布條；develop two habits 為固定搭配；dropped（放棄）與帶布條的行為矛盾。"
+  },
+  {
+   "options": [
+    "guide",
+    "villager",
+    "friend",
+    "stranger"
+   ],
+   "answer": 3,
+   "note": "呼應開頭：又一個「陌生人」在霧中下山；stranger 呼應 ribbons 是留給迷路陌生人的善意；guide、friend 與迷路處境矛盾。"
+  },
+  {
+   "options": [
+    "shown",
+    "sold",
+    "explained",
+    "promised"
+   ],
+   "answer": 0,
+   "note": "曾經被「展示/給予」我的善意，如今沿小徑繼續傳遞；shown to me 呼應 kindness 的傳承主題；sold 貶義。"
+  },
+  {
+   "options": [
+    "punishment",
+    "reward",
+    "forgiveness",
+    "permission"
+   ],
+   "answer": 2,
+   "note": "offer forgiveness「給予寬恕」：山不會饒恕走錯的路，但陌生人會——呼應全文善意主題；punishment、reward、permission 與結尾升華的語義不符。"
+  }
+ ]
+}

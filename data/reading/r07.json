@@ -1,0 +1,57 @@
+{
+ "id": "r07",
+ "type": "reading",
+ "title": "Green Walls for Hot Cities",
+ "genre": "環境",
+ "level": "高三",
+ "style": "通用",
+ "minutes": 8,
+ "intro": "城市比郊區熱好幾度——這不是感覺，是測量出來的。而解決方案之一，可能就掛在牆上。",
+ "passage": "Stand on a rooftop in the city centre in July and then drive thirty minutes into the countryside: the temperature difference can reach five degrees. This is not weather; it is the urban heat island effect. Concrete, asphalt and dark roofs absorb sunlight all day and release it slowly all night, so cities not only get hotter than their surroundings — they stay hot when they should be cooling down. For the elderly, the sick and the very young, those extra degrees are not discomfort; they are hospital admissions.\n\nThe classic fixes are known: lighter-coloured surfaces that reflect sunlight, fewer cars, more shade. But one of the most interesting tools is green — literally. Vertical forests and green walls, in which plants grow up the sides of buildings in engineered panels, have spread from Milan to Singapore to Sydney. Their appeal is easy to see: they turn a heat-absorbing concrete face into a leafy one.\n\nHow do they cool a city? Three mechanisms work together. First, shade: a leafy wall intercepts sunlight before it strikes brick, and the difference in surface temperature between a bare west-facing wall and a planted one can exceed twenty degrees by late afternoon. Second, evapotranspiration: plants release water vapour through their leaves, and every gram evaporated carries heat away with it — the same principle that makes a mist fan feel refreshing. Third, insulation: the layer of vegetation and trapped air slows the transfer of heat into the building itself, reducing the energy needed for air conditioning, which in turn reduces the waste heat that air conditioners pump into the street — a feedback loop that currently makes hot cities hotter.\n\nGreen walls, however, are not a magic sticker. They are living systems with plumbing, roots and opinions. They need irrigation — often recycled greywater — and regular maintenance, and a failed panel of dead plants is both an eyesore and a wasted investment. In hot, dry cities, the water they demand can be a serious cost, and some researchers argue that in such climates carefully designed shade — awnings, screens, even paint — cools more cheaply per degree. There is also the question of scale: a single green tower makes a fine photograph, but a city's air temperature is set by the total surface balance, so walls help meaningfully only when whole streets adopt them.\n\nThe most sensible conclusion treats green walls as one instrument in a band, not a soloist. A street with light surfaces, shade trees at ground level, planted balconies above and reduced traffic will outperform any single technology. What the vertical forest offers is proof of concept: that the surfaces cities are made of can be changed, and that some of the cooling the coming decades require can be grown rather than manufactured. In a century defined by overheating, growing part of your infrastructure is an idea whose season has clearly arrived.",
+ "questions": [
+  {
+   "q": "The author mentions 'hospital admissions' in paragraph 1 to show that ______.",
+   "options": [
+    "hospitals in city centres are better equipped than rural clinics",
+    "the urban heat island effect is a health problem, not merely an inconvenience",
+    "rooftop temperatures rise faster than ground-level ones",
+    "elderly people should avoid travelling to the countryside in summer"
+   ],
+   "answer": 1,
+   "note": "定位第一段末：對老人、病人與幼兒而言，多出的幾度『不是不適，而是住院』——強調熱島效應的健康代價。A、C、D 與例證功能無關。"
+  },
+  {
+   "q": "Which of the following best describes how evapotranspiration cools a city?",
+   "options": [
+    "Water vapour blocks sunlight from reaching the building surface",
+    "Extra moisture in the air lowers the temperature by absorbing carbon dioxide",
+    "Plants convert water into cool air inside their cells",
+    "Water evaporating from leaves carries heat away, like a mist fan refreshing the air"
+   ],
+   "answer": 3,
+   "note": "定位第三段：植物經葉片釋放水汽，每蒸發一克水都帶走熱量——與灑水風扇同理。A『遮擋陽光』是 shade 機制；C 混入二氧化碳資訊屬張冠李戴；D 違反蒸發原理。"
+  },
+  {
+   "q": "What limitation of green walls does paragraph 4 mainly discuss?",
+   "options": [
+    "Their inability to survive in any hot or dry climate at all",
+    "Their ongoing costs and the need for city-wide adoption to truly affect air temperature",
+    "Their tendency to attract insects that damage nearby buildings",
+    "Their negative effect on the insulation of the buildings they cover"
+   ],
+   "answer": 1,
+   "note": "定位第四段：需灌溉與維護、乾旱城市水成本高、單棟綠建築只是照片好看——只有整條街採用才能實質影響氣溫。A『完全無法存活』過度引申；C、D 無中生有（D 與第三段 insulation 的正面作用相反）。"
+  },
+  {
+   "q": "What is the author's overall attitude toward green walls?",
+   "options": [
+    "Dismissive, because shade and paint are always cheaper options",
+    "Appreciative of their potential but realistic about their limits and proper role",
+    "Enthusiastic, believing they can single-handedly solve urban overheating",
+    "Neutral, refusing to evaluate any cooling technology"
+   ],
+   "answer": 1,
+   "note": "全文結構：第三段肯定三重降溫機制，第四段指出成本與規模限制，第五段定位為 band 中的一員而非 soloist——讚賞但務實。A『否定』與 proof of concept 相反；C『單獨解決』與第五段矛盾；D『拒絕評價』不符全文傾向。"
+  }
+ ]
+}

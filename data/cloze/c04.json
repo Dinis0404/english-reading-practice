@@ -1,0 +1,163 @@
+{
+ "id": "c04",
+ "type": "cloze",
+ "title": "The Night Market: More Than Food",
+ "genre": "說明文",
+ "level": "高三",
+ "style": "學測風",
+ "minutes": 15,
+ "intro": "夜市只是吃東西的地方嗎？從社會學角度看，它承載的東西遠比想像多。",
+ "passage": "Ask any visitor what they remember most about Taipei, and the answer will almost certainly [[1]] a night market. Guidebooks praise the food: stinky tofu, bubble tea, oyster omelettes. But to treat the night market merely as a place to eat is to [[2]] its real significance. It is one of the few public spaces where a city's history, economy and social life [[3]] on equal terms.\nNight markets grew out of practical needs. Long before refrigeration, vendors gathered near temples after sunset, [[4]] leftover goods to worshippers leaving evening prayers. The temple provided both customers and protection; the market, in [[5]], supplied the neighborhood with affordable food. That original bond between temple and market still survives in their shared locations and in the ritual of burning incense before a stall opens for business.\nEconomically, the night market is a school of entrepreneurship with [[6]] fees. A young couple can rent a cart, test a recipe, and learn within months whether their idea [[7]] — something no restaurant could afford to allow. Many of Taiwan's best-known food chains began as three-metre stalls. The low cost of entry [[8]] newcomers: students, retirees, and recently arrived immigrants all sell side by side, turning a lane of food carts into a lesson in social mobility.\nYet the market's deepest function may be social. Sociologists who study urban life [[9]] that modern cities, for all their density, are surprisingly short of 'third places' — spots that are neither home nor workplace, where people gather without appointments or purchases. The night market fills this gap [[10]]. Nobody minds if you linger. Strangers [[11]] elbows at crowded counters and leave as acquaintances. Elderly regulars arrive at the same hour each evening, and the stall owners know exactly how strong they like their tea.\nThis is not to [[12]] the problems. Night markets generate waste, noise and parking conflicts, and several famous markets have shrunk as convenience stores spread. City governments now face a delicate task: modernizing sanitation without [[13]] the informality that makes markets work. The stalls' charm lies precisely in what cannot be regulated.\nPerhaps that is the real lesson of the night market. A city can plan roads, offices and parks, but it cannot plan the warm [[14]] of a vendor who remembers your order. Some forms of community must simply be [[15]] to grow — in the cracks between the official city, after sunset, over a bowl of hot soup.",
+ "questions": [
+  {
+   "options": [
+    "involve",
+    "describe",
+    "improve",
+    "replace"
+   ],
+   "answer": 0,
+   "note": "遊客的答案會「包含」夜市；involve 合乎語境；describe 主語應是人；improve、replace 與語義不符。"
+  },
+  {
+   "options": [
+    "catch",
+    "doubt",
+    "prove",
+    "miss"
+   ],
+   "answer": 3,
+   "note": "「只把夜市當吃東西的地方，就是錯過了它真正的意義」；miss 呼應 merely 的對比；catch、doubt、prove 與下文展開的意義論述矛盾。"
+  },
+  {
+   "options": [
+    "train",
+    "compete",
+    "meet",
+    "benefit"
+   ],
+   "answer": 2,
+   "note": "歷史、經濟與社會生活在這裡「交匯」；meet on equal terms 為慣用表達；compete 與 on equal terms 搭配雖可但與「公共空間融合」的主旨不符。"
+  },
+  {
+   "options": [
+    "selling",
+    "donating",
+    "storing",
+    "exporting"
+   ],
+   "answer": 0,
+   "note": "小販聚集在廟旁向離開的香客「販賣」剩餘貨品；selling 與 vendors 呼應；donating（捐贈）、exporting（出口）不合商業語境。"
+  },
+  {
+   "options": [
+    "return",
+    "advance",
+    "short",
+    "total"
+   ],
+   "answer": 0,
+   "note": "in return「作為回報」：廟提供顧客與保護，市場則回報以平價食物；in advance（預先）、in short（總之）、in total 均不構成互惠邏輯。"
+  },
+  {
+   "options": [
+    "zero",
+    "high",
+    "fixed",
+    "hidden"
+   ],
+   "answer": 0,
+   "note": "呼應下文 low cost of entry，夜市是「零學費」的創業學校；zero 與 rent a cart, test a recipe 的低門檻一致；high 矛盾。"
+  },
+  {
+   "options": [
+    "works",
+    "fails",
+    "changes",
+    "ends"
+   ],
+   "answer": 0,
+   "note": "幾個月內就能知道點子是否「行得通」；whether their idea works 合乎試錯邏輯；fails、ends 與學習意義相反，changes 中性模糊。"
+  },
+  {
+   "options": [
+    "replaces",
+    "charges",
+    "ignores",
+    "welcomes"
+   ],
+   "answer": 3,
+   "note": "低門檻「歡迎」新人加入：學生、退休者、移民並肩擺攤；welcomes 呼應 social mobility 的主題；replaces、ignores 與並列擺攤矛盾。"
+  },
+  {
+   "options": [
+    "deny",
+    "predict",
+    "note",
+    "prevent"
+   ],
+   "answer": 2,
+   "note": "社會學家「指出」現代城市缺乏第三空間的現象；note that 為客觀陳述；deny、prevent 與後文肯定夜市功能的論述矛盾。"
+  },
+  {
+   "options": [
+    "barely",
+    "hardly",
+    "perfectly",
+    "rarely"
+   ],
+   "answer": 2,
+   "note": "夜市「完美地」填補了這個空缺——沒人介意你停留；perfectly 呼應下文 Nobody minds 的正面描述；barely、hardly、rarely 為否定副詞，矛盾。"
+  },
+  {
+   "options": [
+    "break",
+    "shake",
+    "rub",
+    "fold"
+   ],
+   "answer": 2,
+   "note": "rub elbows 為美式習語，意為「與人擠在一起/親密交往」，在擁擠的攤台前陌生人摩肩接踵；break、shake、fold 均無此習語意義。"
+  },
+  {
+   "options": [
+    "magnify",
+    "ignore",
+    "solve",
+    "list"
+   ],
+   "answer": 1,
+   "note": "This is not to ignore the problems「並非無視問題」，承上啟下引出廢棄物與噪音；magnify（誇大）與客觀羅列語氣不符。"
+  },
+  {
+   "options": [
+    "improving",
+    "copying",
+    "funding",
+    "destroying"
+   ],
+   "answer": 3,
+   "note": "現代化衛生若「破壞」了讓市場運作的非正式性，就得不償失；destroying 呼應 charm lies in what cannot be regulated；improving、funding 為正面詞，矛盾。"
+  },
+  {
+   "options": [
+    "silence",
+    "warmth",
+    "crowd",
+    "order"
+   ],
+   "answer": 1,
+   "note": "攤販記得你口味的那份「溫情」是城市規劃不出來的；warmth 呼應 vendor who remembers your order；silence、order 與夜市喧鬧的人情味矛盾。"
+  },
+  {
+   "options": [
+    "left",
+    "forced",
+    "trained",
+    "priced"
+   ],
+   "answer": 0,
+   "note": "某些社群形態只能被「放任」在官方城市的縫隙中自然生長；be left to grow 合乎主旨；forced、trained、priced 均帶干預義，與 cannot be planned 矛盾。"
+  }
+ ]
+}

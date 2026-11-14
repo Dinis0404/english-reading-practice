@@ -1,0 +1,163 @@
+{
+ "id": "c05",
+ "type": "cloze",
+ "title": "The Cost of Being Always Reachable",
+ "genre": "議論文",
+ "level": "高三",
+ "style": "DSE風",
+ "minutes": 15,
+ "intro": "智慧型手機讓我們隨時可被聯繫——但「隨時在線」的代價是什麼？",
+ "passage": "My grandmother owned exactly one telephone. It sat in the hallway, heavy and black, and when it rang, whoever was nearest [[1]] it. Being reachable, in her day, was a matter of geography: you were either at the telephone or you were not.\nToday that geography has [[2]]. The phone follows us into bedrooms, bathrooms and boardrooms, and with it follows the assumption that we are always available. A message that goes unanswered for two hours now requires an apology; a phone call ignored during dinner once required nothing at all.\nWe tend to [[3]] this change as progress, and in many ways it is. Parents can reach travelling children in emergencies; doctors check test results from their kitchens; a friend's crisis can find you at midnight and you can actually help. The benefits are [[4]]. Yet convenience has a way of quietly rewriting social rules, and the new rules deserve a second look.\nConsider what 'always reachable' does to attention. Psychologists who study interruption have found that after each [[5]], a person needs over twenty minutes to return to deep concentration. For students, the cost is visible: a revision session interrupted every few minutes produces learning that feels busy but [[6]] little. For workers, the constant pinging of notifications has turned offices into [[7]] of unfinished thoughts.\nThere is also a subtler price. When we know that anyone can reach us at any moment, we lose the natural endings that the old geography provided. A conversation used to end when you left the [[8]]; an argument used to cool overnight. Now the same argument can [[9]] at midnight through a screen, taking no rest, resolving nothing.\nNone of this argues for throwing our phones into the sea. The technology is not the [[10]]; the problem is the absence of boundaries we no longer build for ourselves. My grandmother's hallway telephone imposed limits; we must now [[11]] our own.\nSome families have begun. Phones [[12]] in a basket at dinner. Teenagers trade the bedroom charger for the kitchen one. Individuals schedule 'offline hours' and discover, with surprise, that the world does not [[13]]. Such rules look small, even old-fashioned, but they [[14]] something important: that presence — full, undivided attention to the person in front of you — is a gift, and gifts require [[15]].\nBeing reachable everywhere, it turns out, means being fully present nowhere. The task of this generation is not to switch the phone off, but to decide, deliberately, where and when it belongs.",
+ "questions": [
+  {
+   "options": [
+    "ignored",
+    "answered",
+    "repaired",
+    "recorded"
+   ],
+   "answer": 1,
+   "note": "鈴響時離電話最近的人會「接聽」；answered 呼應 old days 可及性取決於地理位置的主題；ignored 與描述過去通話規矩的正面口吻不符。"
+  },
+  {
+   "options": [
+    "expanded",
+    "collapsed",
+    "improved",
+    "returned"
+   ],
+   "answer": 1,
+   "note": "手機跟進臥室、浴室、會議室——舊有的地理「邊界」已崩塌；collapsed 呼應 always available；expanded 與「不再有地理限制」矛盾。"
+  },
+  {
+   "options": [
+    "describe",
+    "doubt",
+    "abandon",
+    "postpone"
+   ],
+   "answer": 0,
+   "note": "「我們傾向把這種變化描述為進步」；describe as 為固定搭配；doubt 與 and in many ways it is 的讓步矛盾。"
+  },
+  {
+   "options": [
+    "real",
+    "limited",
+    "doubtful",
+    "temporary"
+   ],
+   "answer": 0,
+   "note": "緊急聯繫、醫療查詢等好處是「真實的」，real 呼應 Yet convenience has a way... 的讓步-轉折結構；limited、doubtful、temporary 削弱讓步力度。"
+  },
+  {
+   "options": [
+    "improvement",
+    "interruption",
+    "celebration",
+    "conversation"
+   ],
+   "answer": 1,
+   "note": "研究對象是「干擾」：每次干擾後需 20 分鐘恢復深度專注；interruption 呼應 Psychologists who study interruption；improvement、celebration 無此意義。"
+  },
+  {
+   "options": [
+    "achieves",
+    "contains",
+    "produces",
+    "reflects"
+   ],
+   "answer": 2,
+   "note": "被不斷打斷的複習「感覺忙碌但收穫甚少」；produces little 與 feels busy 形成對照；achieves 與 produces 同義但主語是 learning，achieve 不搭配。"
+  },
+  {
+   "options": [
+    "graveyards",
+    "factories",
+    "libraries",
+    "stages"
+   ],
+   "answer": 0,
+   "note": "通知鈴聲不斷的辦公室成了「未完成想法的墳場」，graveyard 為隱喻呼應被打斷的思路；factories、libraries、stages 無此隱喻力量。"
+  },
+  {
+   "options": [
+    "room",
+    "phone",
+    "screen",
+    "meeting"
+   ],
+   "answer": 0,
+   "note": "對應開頭祖母的走廊電話時代：離開那個「房間」，對話自然結束；room 呼應 geography 的舊秩序；screen、phone 屬於新時代，矛盾。"
+  },
+  {
+   "options": [
+    "pause",
+    "continue",
+    "fade",
+    "postpone"
+   ],
+   "answer": 1,
+   "note": "同樣的爭執現在能透過螢幕「延續」到午夜；continue 與 taking no rest, resolving nothing 呼應；pause、fade、postpone 意思相反。"
+  },
+  {
+   "options": [
+    "hero",
+    "villain",
+    "answer",
+    "future"
+   ],
+   "answer": 1,
+   "note": "「問題不在科技本身」，the technology is not the villain；呼應 the problem is the absence of boundaries；hero 與論證對象不符。"
+  },
+  {
+   "options": [
+    "build",
+    "borrow",
+    "skip",
+    "record"
+   ],
+   "answer": 0,
+   "note": "祖母的電話強加了界限，如今我們必須「建立」自己的界限；build our own 呼應 the absence of boundaries；borrow、skip、record 均不構成解決方案。"
+  },
+  {
+   "options": [
+    "hide",
+    "charge",
+    "ring",
+    "gather"
+   ],
+   "answer": 3,
+   "note": "晚餐時手機「集中收在」籃子裡，gather in a basket 呼應家庭的集體儀式；hide 針對單部手機且帶偷偷義；ring 與收起矛盾。"
+  },
+  {
+   "options": [
+    "collapse",
+    "notice",
+    "care",
+    "complain"
+   ],
+   "answer": 0,
+   "note": "離線數小時後發現「世界並未崩塌」；collapse 呼應驚喜感的幽默表達；notice、care、complain 與 the world does not... 的固定說法不符。"
+  },
+  {
+   "options": [
+    "prove",
+    "reveal",
+    "protect",
+    "destroy"
+   ],
+   "answer": 2,
+   "note": "這些小規則「保護」了一件重要的事——當下的全神貫注；protect 呼應設立界限的意義；prove、reveal 力度弱且無防護義；destroy 矛盾。"
+  },
+  {
+   "options": [
+    "effort",
+    "money",
+    "wrapping",
+    "advertising"
+   ],
+   "answer": 0,
+   "note": "禮物需要「用心經營」——把「專注在場」比作禮物，所以需要 effort；money 與語境無關；wrapping 呼應 gift 但屬字面干擾。"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "r05",
+ "type": "reading",
+ "title": "Should AI Mark Your Essays?",
+ "genre": "議論",
+ "level": "進階",
+ "style": "DSE風",
+ "minutes": 8,
+ "intro": "自動批改作文的系統越來越便宜、越來越快。但便宜和快，是教育最需要的東西嗎？",
+ "passage": "This year, for the first time, a growing number of schools in several countries have begun letting artificial intelligence grade students' essays. The appeal is obvious. A human teacher needs twenty minutes to mark a composition; a machine needs four seconds, and it never gets tired, never favours the student who sits in the front row, and never releases results three weeks late. Schools with thousands of scripts and few staff see salvation in the software.\n\nThe machines, to be fair, have grown genuinely capable at one layer of marking. They count errors of grammar and spelling with perfect consistency; they can recognize whether an essay has addressed the topic, whether its paragraphs are organized, whether its vocabulary is repetitive. For the mechanical half of assessment, they are faster, fairer and more transparent than any exhausted human at midnight. Few researchers deny this.\n\nWhat the machines cannot yet do is read as readers. When a student writes something slightly strange — an unexpected metaphor, an argument that takes the scenic route, a sentence that reveals the writer is quietly fighting to be understood — a human marker stops. The stop is where teaching happens: the moment a marker notices not just whether a sentence is correct but why a person wrote it. Software scores the sentence and moves on. It has no experience to compare yours against; it has read ten million essays and understood none of them.\n\nThere is also a second danger, quieter and therefore greater. Students are not stupid; they are pattern-seeking machines themselves. Show a class what the algorithm rewards — clear structure, safe vocabulary, one example per paragraph — and within a term the essays will morph to fit. The tragedy is not that students will write badly. It is that they will write well in a form nobody asked for, trading the strange, fragile, personal experiments from which real writers grow for what one researcher bluntly calls 'algorithm-flavoured writing'. Humans marking to a rubric already push in this direction; machines merely remove the last human hesitation.\n\nThis does not mean the software should be thrown away. Used honestly, AI marking is a fine assistant: let it flag grammar and structural issues in a first pass, and let a human decide what the essay means and what the student needs. The rule of thumb is simple — machines may count, but humans must interpret. What we should refuse is the quiet replacement of the second, slower layer of marking with a faster, thinner one, presented to parents as progress and to students as feedback.\n\nEducation has always had an expensive, inefficient core: a person paying attention to another person. Everything efficient built around that core exists to serve it. The moment we mistake the shell for the kernel, we will have schools full of perfect structure and empty voice — essays that please every algorithm and reach no one.",
+ "questions": [
+  {
+   "q": "In paragraph 2, the author admits that AI marking systems are good at ______.",
+   "options": [
+    "understanding the personal voice of each student writer",
+    "providing encouraging comments that motivate weak students",
+    "replacing teachers entirely in both speed and depth",
+    "the mechanical aspects of assessment such as grammar and organization"
+   ],
+   "answer": 3,
+   "note": "定位第二段：AI 在語法拼寫、是否切題、段落組織等 mechanical half of assessment 上 faster, fairer and more transparent。A『理解個人聲音』正是第三段說 AI 做不到的；B『鼓勵評語』無中生有；C『完全取代』與全文立場相反。"
+  },
+  {
+   "q": "What does the author mean by saying the machines 'have read ten million essays and understood none of them'?",
+   "options": [
+    "AI has been trained on too many essays to remember any individual one",
+    "Human readers understand essays better because they read fewer of them",
+    "The ten million essays used for training were of poor quality",
+    "AI can process and score texts without grasping the human intention behind them"
+   ],
+   "answer": 3,
+   "note": "定位第三段末：AI 對句子打分後繼續前進，no experience to compare yours against——能處理文本但無法理解寫作者的意圖與掙扎。A『記不住』偷換概念；B『讀得少才懂』非原文邏輯；C 無中生有。"
+  },
+  {
+   "q": "The 'quieter and therefore greater' danger refers to ______.",
+   "options": [
+    "students reshaping their writing to match what the algorithm rewards",
+    "the possibility that the software may suddenly fail during exams",
+    "teachers losing their jobs as schools adopt automated marking",
+    "parents being misled about their children's true progress"
+   ],
+   "answer": 0,
+   "note": "定位第四段：學生是尋找規律的機器，看到演算法獎勵什麼，一學期內作文就 morph to fit——為迎合評分而放棄真實的寫作實驗。此危險『安靜』因無人抗議、不易察覺，故比明顯的缺陷更危險。B、C、D 均非該段所指。"
+  },
+  {
+   "q": "Which of the following best summarizes the author's position?",
+   "options": [
+    "AI marking should be banned until the technology fully matures",
+    "AI marking benefits teachers more than it benefits students",
+    "Human marking should focus on grammar while AI handles ideas",
+    "AI should assist with surface-level marking, while humans retain the interpretive role"
+   ],
+   "answer": 3,
+   "note": "定位第五段：讓 AI 初步標記語法與結構問題，由人決定文章意義與學生所需——machines may count, but humans must interpret。A 準確概括分工。A『全面禁止』過激，作者明言不應丟棄軟體；C 比較對象文中未談；D 分工與原文相反。"
+  }
+ ]
+}

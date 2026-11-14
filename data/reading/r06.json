@@ -1,0 +1,57 @@
+{
+ "id": "r06",
+ "type": "reading",
+ "title": "The Truth About Caffeine",
+ "genre": "說明",
+ "level": "高三",
+ "style": "通用",
+ "minutes": 8,
+ "intro": "咖啡因是全世界最常用的提神物質——也是被誤解得最多的物質之一。",
+ "passage": "Caffeine is the world's most popular psychoactive substance: roughly ninety percent of adults consume it daily, mostly in coffee, tea and soft drinks. Yet few people understand what it actually does. The popular image — caffeine as a battery charger, injecting energy into a tired body — is wrong in an instructive way.\n\nCaffeine does not create energy. What it does is block a molecule called adenosine, which builds up in the brain during waking hours and is the body's natural signal that it is time to rest. The longer you stay awake, the more adenosine accumulates, and the heavier your 'sleep pressure' feels. Caffeine fits into the receptors where adenosine would normally bind, hiding the signal without removing its cause. You do not gain energy; you simply stop hearing the alarm.\n\nThis mechanism explains caffeine's strengths and its traps. The block is temporary, and the adenosine does not disappear — it keeps accumulating behind the dam. When caffeine wears off, all the blocked sleep pressure arrives at once, which is why the afternoon crash feels so sudden and so much worse than ordinary tiredness. Meanwhile, caffeine lingers: with a half-life of five to six hours, half of the caffeine in your 4 p.m. coffee is still working at ten in the evening, quietly delaying the alarm you will need at midnight. Sleep researchers now believe that many people who feel they suffer from insomnia are actually drinking their insomnia in the afternoon.\n\nThe good news is that caffeine's relationship with sleep is manageable rather than mysterious. Adenosine is cleared during sleep, so the same dose taken early in the morning — when sleep pressure is low anyway — produces far less interference than the same dose at noon. Most sleep scientists recommend a personal 'caffeine curfew' about eight hours before bedtime. By that rule, a 7 a.m. coffee is fine for a 11 p.m. sleeper, but the 3 p.m. one is not.\n\nThere is one further twist worth knowing. Regular drinkers develop tolerance: the brain, finding its alarm permanently muffled, grows extra receptors to hear better. More receptors mean more adenosine signal — and less caffeine per receptor. The cup that once powered an all-nighter slowly becomes the cup needed to feel merely normal. This is why giving up coffee for three days produces headaches and gloom: the extra receptors are there, the alarm is deafening, and the brain needs time to adjust them down. Tolerance is not addiction in the severe sense, but it is a reminder that the chemistry has been keeping accounts all along.\n\nNone of this requires giving coffee up. It requires giving up a myth: that caffeine creates wakefulness. It does not. It borrows wakefulness from tonight, and the loan, like all loans, collects its interest in the morning.",
+ "questions": [
+  {
+   "q": "According to the passage, caffeine keeps people awake by ______.",
+   "options": [
+    "burning the adenosine that has accumulated in the brain",
+    "blocking the brain's signal for rest rather than supplying energy",
+    "speeding up the clearance of sleep pressure from the body",
+    "stimulating the body to produce energy more quickly"
+   ],
+   "answer": 1,
+   "note": "定位第二段：咖啡因佔據腺苷受體，hiding the signal without removing its cause——遮蔽休息訊號，而非提供能量；You do not gain energy; you simply stop hearing the alarm。A『燒掉腺苷』與其『持續累積』矛盾；C『加速清除』是睡眠的功能；D『產生能量』為文章開頭批評的錯誤印象。"
+  },
+  {
+   "q": "Why does the author call the afternoon crash 'so much worse than ordinary tiredness'?",
+   "options": [
+    "Coffee drinkers usually skip lunch and rest during busy afternoons",
+    "All the sleep pressure blocked by caffeine arrives at the same time when it wears off",
+    "Caffeine doubles the amount of adenosine the brain produces each day",
+    "The body has already adjusted to having no sleep pressure at all"
+   ],
+   "answer": 1,
+   "note": "定位第三段：咖啡因代謝後，被擋在『水壩』後面的腺苷訊號一次全部湧至——故下午崩塌感突然且沉重。A、D 無中生有；C『加倍分泌』曲解腺苷只是持續累積。"
+  },
+  {
+   "q": "What do sleep researchers imply about many self-diagnosed insomnia sufferers?",
+   "options": [
+    "Their condition cannot be treated without professional medication",
+    "Their sleeplessness may be caused by afternoon caffeine consumption",
+    "They confuse normal tiredness with a medical disorder",
+    "They should replace coffee with stronger tea before bed"
+   ],
+   "answer": 1,
+   "note": "定位第三段末：很多人以為自己失眠，其實是把失眠『喝』出來的——下午咖啡因（半衰期 5-6 小時）在深夜仍延遲睡眠警報。A、C、D 皆無據。"
+  },
+  {
+   "q": "The last sentence 'the loan... collects its interest in the morning' suggests that ______.",
+   "options": [
+    "wakefulness borrowed through caffeine must later be repaid as heavier tiredness",
+    "drinking coffee at night costs more money than drinking it in the morning",
+    "the effects of caffeine always wear off before the next morning",
+    "banks have started to study the chemistry of sleep pressure"
+   ],
+   "answer": 0,
+   "note": "定位末段：咖啡因不是創造清醒，而是『向今晚借清醒』——被遮蔽的睡眠壓力終將以更重的疲勞償還（利息）。B 把比喻字面化為金錢；C『代謝完畢』與 adenosine 積累機制矛盾；D 無關。"
+  }
+ ]
+}

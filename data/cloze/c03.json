@@ -1,0 +1,163 @@
+{
+ "id": "c03",
+ "type": "cloze",
+ "title": "Why Your Brain Studies While You Sleep",
+ "genre": "說明文",
+ "level": "高三",
+ "style": "學測風",
+ "minutes": 15,
+ "intro": "熬夜複習真的是好策略嗎？神經科學家給出的答案可能出乎意料。",
+ "passage": "For generations of students, the night before a big exam has meant one thing: less sleep, more revision. Yet a growing body of research suggests that cutting sleep to study may be the most [[1]] trade-off a learner can make. The reason lies in what your brain does after you close the book — and close your eyes.\nDuring deep sleep, the brain is far from idle. It replays the day's experiences at high speed, [[2]] fragile memories from the hippocampus, a seahorse-shaped region that acts like a temporary inbox, to the cortex, where knowledge is stored long-term. In experiments at the University of California, students who slept after learning a list of word pairs remembered about 40 percent more than those who stayed [[3]]. Sleep, in other words, is not the opposite of studying; it is the second half of it.\nSleep also [[4]] an unwanted side effect of learning: interference. Every new fact you take in competes with similar facts already stored — the Spanish word for 'tomorrow' fights with the Italian one. During the night, the brain weakens the connections that carry [[5]] information, leaving the important traces clearer. A researcher in the field compares the process to tidying a desk: 'You do not throw the papers away; you file them.'\nThe practical [[6]] are uncomfortable but clear. Skipping sleep to cram may help you recognize a few facts the next morning, but the knowledge will be [[7]] stored, more easily confused, and quicker to fade. Worse, sleep loss [[8]] the prefrontal cortex — the region responsible for focus and reasoning — so the tired student is fighting the exam with [[9]] equipment.\nResearchers therefore [[10]] a simple schedule: study a subject, sleep normally, and review briefly the next morning. For material that must be remembered for years — vocabulary, formulas, historical dates — spacing practice across several nights [[11]] far better results than one heroic all-nighter. Even a short midday nap has been shown to [[12]] memory consolidation.\nThe cultural message, however, keeps pushing the other way. Students wear sleeplessness like a badge of [[13]], as if suffering proved effort. But effort without consolidation is like writing letters you never post. The science is [[14]]: if you want your brain to keep what you have learned, the smartest last step of every study session is to [[15]] the light, lie down, and let the night shift begin.",
+ "questions": [
+  {
+   "options": [
+    "profitable",
+    "costly",
+    "reasonable",
+    "popular"
+   ],
+   "answer": 1,
+   "note": "用睡眠換複習看似賺到，實則代價高昂（costly trade-off），呼應全文睡眠對記憶的重要性；profitable、reasonable 意思相反；popular 無評價力度。"
+  },
+  {
+   "options": [
+    "translating",
+    "copying",
+    "deleting",
+    "transferring"
+   ],
+   "answer": 3,
+   "note": "下文 from the hippocampus...to the cortex 表明是「轉移」記憶；transferring 與 from...to 結構呼應；translating（翻譯）、copying（單純複製）、deleting（刪除）均不符。"
+  },
+  {
+   "options": [
+    "calm",
+    "silent",
+    "awake",
+    "still"
+   ],
+   "answer": 2,
+   "note": "對照實驗：睡覺組 vs「保持清醒」組；stayed awake 為固定搭配；calm、silent、still 不構成實驗對照變量。"
+  },
+  {
+   "options": [
+    "creates",
+    "records",
+    "measures",
+    "reduces"
+   ],
+   "answer": 3,
+   "note": "下文說睡眠弱化干擾性連接，故睡眠「減少」了學習的副作用 interference；creates 與下文弱化干擾矛盾。"
+  },
+  {
+   "options": [
+    "essential",
+    "accurate",
+    "irrelevant",
+    "basic"
+   ],
+   "answer": 2,
+   "note": "大腦弱化的是攜帶「無關」資訊的連接，讓重要痕跡更清晰；irrelevant 與 leaving the important traces clearer 對應；essential、accurate、basic 均為該保留的內容。"
+  },
+  {
+   "options": [
+    "implications",
+    "explanations",
+    "instructions",
+    "descriptions"
+   ],
+   "answer": 0,
+   "note": "研究帶來的現實「啟示/推論」是不舒服但明確的；implications 合乎語境；instructions（操作指令）、explanations、descriptions 與 but clear 的建議性內容不搭。"
+  },
+  {
+   "options": [
+    "firmly",
+    "neatly",
+    "loosely",
+    "safely"
+   ],
+   "answer": 2,
+   "note": "與下文 more easily confused, quicker to fade 平行，說明知識儲存「不牢固」；loosely stored 呼應淺層儲存；firmly、neatly、safely 意思相反。"
+  },
+  {
+   "options": [
+    "activates",
+    "protects",
+    "reshapes",
+    "weakens"
+   ],
+   "answer": 3,
+   "note": "睡眠不足會「削弱」負責專注與推理的前額葉皮質，所以考生「武器不佳」；weakens 與下文 fighting with reduced equipment 呼應；activates、protects 為正面效果。"
+  },
+  {
+   "options": [
+    "reduced",
+    "advanced",
+    "spare",
+    "perfect"
+   ],
+   "answer": 0,
+   "note": "疲勞考生是用「被削弱的裝備」應考；reduced equipment 呼應 weakens；advanced、perfect 與 tired 矛盾；spare（備用的）無削弱義。"
+  },
+  {
+   "options": [
+    "oppose",
+    "question",
+    "record",
+    "recommend"
+   ],
+   "answer": 3,
+   "note": "研究者的結論是提出「建議」作息：學習—正常睡眠—早晨複習；recommend 合乎說明文的應用段；oppose、question 與提出方案矛盾。"
+  },
+  {
+   "options": [
+    "demands",
+    "blocks",
+    "describes",
+    "yields"
+   ],
+   "answer": 3,
+   "note": "多晚分散練習「帶來」更好的效果，yields results 為地道搭配；demands results（要求結果）主語應是人；blocks 意思相反。"
+  },
+  {
+   "options": [
+    "delay",
+    "test",
+    "boost",
+    "replace"
+   ],
+   "answer": 2,
+   "note": "午睡已被證明能「促進」記憶鞏固；boost consolidation 與上文睡眠幫助記憶一致；delay、replace 與研究結論矛盾。"
+  },
+  {
+   "options": [
+    "shame",
+    "humor",
+    "honor",
+    "danger"
+   ],
+   "answer": 2,
+   "note": "wear sleeplessness like a badge of honor「把熬夜當榮譽徽章佩戴」，諷刺以苦為榮的文化；shame、humor、danger 與 as if suffering proved effort 的邏輯不符。"
+  },
+  {
+   "options": [
+    "divided",
+    "limited",
+    "clear",
+    "missing"
+   ],
+   "answer": 2,
+   "note": "「科學結論是明確的」；clear 呼應全文一致的實驗證據；divided（有分歧）、limited、missing 與作者的肯定語氣矛盾。"
+  },
+  {
+   "options": [
+    "turn off",
+    "turn to",
+    "turn up",
+    "turn over"
+   ],
+   "answer": 0,
+   "note": "睡前最後一步是「關燈」躺下；turn off the light 為固定搭配；turn up（調亮/出現）與入睡相反。"
+  }
+ ]
+}

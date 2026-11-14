@@ -1,0 +1,163 @@
+{
+ "id": "c02",
+ "type": "cloze",
+ "title": "The Pool I Feared",
+ "genre": "記敘文",
+ "level": "高三",
+ "style": "高考風",
+ "minutes": 15,
+ "intro": "十歲那年的溺水經歷，讓他十年不敢下水。高三這年，他決定面對那座泳池。",
+ "passage": "When I was ten, I nearly drowned at a hotel pool. The memory never [[1]]: the cold water closing over my head, the silent panic, and a lifeguard pulling me out just in time. After that, I refused to go near any pool, lake or sea. My friends [[2]] me, but I always found an excuse — exams, tiredness, the weather.\nLast September, however, I entered my final year of high school and suddenly felt [[3]] of my fear. It was not the fear itself that troubled me, but the way it had quietly [[4]] into other corners of my life. I avoided speaking in public. I gave up before trying difficult questions. Somewhere along the way, 'I can't swim' had become 'I can't [[5]] risks'.\nSo I made a deal with myself: ten swimming lessons, no excuses. On the first morning I stood at the edge of the pool, heart [[6]], fingers cold. My coach, a patient woman in her fifties, simply said, 'Sit on the step. Just breathe.' For twenty minutes I did nothing but breathe and watch the water move. It felt [[7]] — like a punishment — but I followed her instructions.\nWeek by week, she added one small task: put my face in the water; blow bubbles; float with her hand [[8]] my back. Each skill looked ridiculously small on paper, yet each one asked me to [[9]] the water a little more. One afternoon in November, without being asked, I pushed off the wall and glided — arms forward, face down, bubbles rising. When I [[10]], I had crossed half the pool.\nI did not cry, though I wanted to. What moved me was not the distance I covered but the [[11]] that fear shrinks when you face it in small, repeated steps. The pool had not changed; I had.\nMy exam results that year did improve, but that is not the [[12]] of this story. The real lesson came on a December evening, when I stood at the edge of the deep end, looked down at the blue water, and felt — for the first time in eight years — not [[13]] but calm. I still respect the water. I no longer let it [[14]] my choices.\nCourage, I now believe, is not the absence of fear. It is the decision that something else — growth, freedom, curiosity — [[15]] more than your fear does.",
+ "questions": [
+  {
+   "options": [
+    "returned",
+    "deepened",
+    "changed",
+    "faded"
+   ],
+   "answer": 3,
+   "note": "下文詳述記憶的細節（冰冷的水、無聲的恐慌），說明記憶從未「褪去」；faded 最貼切；returned、deepened、changed 與「記憶清晰如昨」的展開不符。"
+  },
+  {
+   "options": [
+    "praised",
+    "envied",
+    "teased",
+    "supported"
+   ],
+   "answer": 2,
+   "note": "「但我總找藉口拒絕」說明朋友常「取笑/打趣」我不敢下水；teased 合乎語境；praised、envied、supported 均為正面詞，與找藉口迴避的行為矛盾。"
+  },
+  {
+   "options": [
+    "proud",
+    "ashamed",
+    "confident",
+    "aware"
+   ],
+   "answer": 1,
+   "note": "升入高三「突然對自己的恐懼感到羞恥」，才下定決心改變；feel ashamed of the fear 合乎成長敘事；proud、confident 為正面詞，矛盾；aware 不與 of my fear 構成行動動機。"
+  },
+  {
+   "options": [
+    "dropped",
+    "disappeared",
+    "returned",
+    "spread"
+   ],
+   "answer": 3,
+   "note": "下文列舉逃避演講、放棄難題，說明恐懼已「蔓延」到生活其他角落；spread into 最貼切；disappeared、dropped 與列舉的負面影響矛盾。"
+  },
+  {
+   "options": [
+    "make",
+    "take",
+    "get",
+    "bring"
+   ],
+   "answer": 1,
+   "note": "take risks 為固定搭配「冒險」；make/get/bring 均不與 risks 搭配。"
+  },
+  {
+   "options": [
+    "aching",
+    "breaking",
+    "burning",
+    "pounding"
+   ],
+   "answer": 3,
+   "note": "heart pounding 意為「心怦怦直跳」，描寫站在池邊的緊張；aching（疼痛）、breaking、burning 與恐懼場景不符。"
+  },
+  {
+   "options": [
+    "helpful",
+    "exciting",
+    "pointless",
+    "relaxing"
+   ],
+   "answer": 2,
+   "note": "「只是坐著呼吸二十分鐘」當時感覺像懲罰，覺得毫無意義（pointless），但還是照做——與 but I followed her instructions 的轉折呼應；helpful、relaxing 與 like a punishment 矛盾。"
+  },
+  {
+   "options": [
+    "above",
+    "beyond",
+    "across",
+    "beneath"
+   ],
+   "answer": 3,
+   "note": "教練的手托在背部「下方」幫助漂浮，beneath my back 準確；above 在上方（會壓沉）、beyond、across 均不符合托扶的動作。"
+  },
+  {
+   "options": [
+    "fear",
+    "study",
+    "trust",
+    "measure"
+   ],
+   "answer": 2,
+   "note": "每個小任務都要求我多「信任」水一分，呼應結尾 no longer let it control me；fear 與任務遞進的正面意義相反。"
+  },
+  {
+   "options": [
+    "gave up",
+    "woke up",
+    "looked up",
+    "stood up"
+   ],
+   "answer": 3,
+   "note": "滑行後起身，發現自己已游過半個泳池；stood up 合乎動作順序；gave up、woke up 與語境不符。"
+  },
+  {
+   "options": [
+    "excuse",
+    "discovery",
+    "promise",
+    "memory"
+   ],
+   "answer": 1,
+   "note": "真正的收穫是「發現」恐懼會在逐步面對中縮小；discovery 與 What moved me was... 的領悟呼應；excuse、promise、memory 無法概括這一道理。"
+  },
+  {
+   "options": [
+    "ending",
+    "point",
+    "cost",
+    "secret"
+   ],
+   "answer": 1,
+   "note": "「成績進步不是這個故事的重點」，the point of this story 為慣用表達；ending、secret、cost 與 not...but the real lesson 的對照不符。"
+  },
+  {
+   "options": [
+    "afraid",
+    "proud",
+    "tired",
+    "bored"
+   ],
+   "answer": 0,
+   "note": "not afraid but calm「不再恐懼，而是平靜」，直接呼應全文的恐懼主題；proud、tired、bored 與八年怕水的敘事線不對應。"
+  },
+  {
+   "options": [
+    "share",
+    "record",
+    "control",
+    "explain"
+   ],
+   "answer": 2,
+   "note": "「我尊重水，但不再讓它控制我的選擇」，control 呼應開頭恐懼蔓延到生活各處的主題；share、record、explain 均脫離語境。"
+  },
+  {
+   "options": [
+    "matters",
+    "costs",
+    "weighs",
+    "arrives"
+   ],
+   "answer": 0,
+   "note": "matters more than...「比恐懼更重要」，呼應 courage 的定義句；costs（花費）、weighs（更重）、arrives 均與 the decision that something else... 的語義不符。"
+  }
+ ]
+}

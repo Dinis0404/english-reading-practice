@@ -1,0 +1,57 @@
+{
+ "id": "r01",
+ "type": "reading",
+ "title": "Grandmother's Recipe Card",
+ "genre": "敘事",
+ "level": "高三",
+ "style": "高考風",
+ "minutes": 8,
+ "intro": "一張沾著油漬的食譜卡，記錄的不只是味道。",
+ "passage": "When my grandmother died last spring, my mother and I sorted through her kitchen together. In the back of a drawer, behind a rusted tin of buttons, we found a recipe card for fish soup. It was written in my grandmother's careful hand, the ink faded to brown, the corners spotted with decades of oil and steam. My mother put it in her handbag, and for the rest of the afternoon she carried it around the flat like a passport.\n\nThe card has never actually told us how to make the soup. That is the strange thing about it. The instructions stop after three lines: 'Clean the fish. Ask Ah-Po for the green mangoes from the yard. Fire must be patient.' The rest — the amounts, the timing, the order of the spices — was never written down, because for forty years my grandmother was the rest. The card was not a set of instructions; it was a memory aid for a woman who carried the recipe in her wrists, her nose and her patience with fire.\n\nAfter the funeral, my mother tried to cook the soup from memory. The first attempt was too sour. The second lacked the mysterious depth that made the original taste like the original. On the third Sunday she telephoned my great-aunt in Penang, and for an hour the two old women talked about green mangoes, salted fish and the correct way to argue with a stove. The soup that night was close, though not exact. My mother said the difference was the water — Penang water, KL water, house water, each carries something of its own — and perhaps she was right, or perhaps she was describing something that has nothing to do with water.\n\nI have started writing my own recipe cards, and I have noticed that I do the same thing my grandmother did: I leave out the parts I am sure I will remember. 'Fry until fragrant,' I write, certain that future me will know what fragrant means. But of course future me is a stranger, and the person who reads the card one day may be my own daughter, standing in a kitchen I cannot imagine, trying to reach a taste she half-remembers from childhood.\n\nMy grandmother's card now lives on our refrigerator under a small magnet shaped like a fish. We do not need it for cooking — my mother no longer looks at it at all. We keep it where we can see it because it does something no completed recipe could do: it reminds us that some kinds of knowledge are held by people, not paper, and that when the people are gone, what remains is not the recipe but the attempt — the Sunday calls, the too-sour soup, the patient fire — which is, in the end, a way of being taught by someone who is no longer there.",
+ "questions": [
+  {
+   "q": "Why does the author call the recipe card 'a memory aid' rather than a set of instructions?",
+   "options": [
+    "Because the grandmother had a poor memory and often forgot her own recipe",
+    "Because most of the recipe existed only in the grandmother's skills and habits",
+    "Because the card was too damaged to be read completely",
+    "Because the family preferred cooking without written recipes"
+   ],
+   "answer": 1,
+   "note": "定位第二段：卡片只寫了三行，其餘 the amounts, the timing, the order... was never written down, because... my grandmother was the rest——配方存在於她的手感、嗅覺與耐心之中，故卡片只是輔助記憶的線索。B 項「記性差」無中生有；C 項破損與文意不符；D 項家人偏好無據。"
+  },
+  {
+   "q": "What can we infer about the mother's third attempt at the soup?",
+   "options": [
+    "She succeeded because her great-aunt gave her the missing ingredients",
+    "She realized that Penang water was the key to the original taste",
+    "She decided to stop trying after consulting her great-aunt",
+    "She still could not reproduce the soup exactly as the grandmother made it"
+   ],
+   "answer": 3,
+   "note": "定位第三段：The soup that night was close, though not exact——母親無法完全復刻原味。B 項姨婆只是聊食材與竈火，並未給出配方；C 項把母親的猜測（perhaps she was right）當作事實；D 項她並未放棄，反而是繼續嘗試。"
+  },
+  {
+   "q": "The author writes his own recipe cards and 'leaves out the parts I am sure I will remember'. What is the author's attitude toward this habit?",
+   "options": [
+    "Confident, because everyone will naturally understand terms like 'fragrant'",
+    "Self-aware and slightly worried, because future readers may not share his knowledge",
+    "Indifferent, because recipe cards are no longer useful today",
+    "Regretful, because he should copy his grandmother's card word for word"
+   ],
+   "answer": 1,
+   "note": "定位第四段：But of course future me is a stranger... trying to reach a taste she half-remembers——作者意識到未來的讀者（包括女兒）無法共享他現在的把握，語氣是自覺與隱憂。B 項與 but of course 的自我反駁相反；C、D 無中生有。"
+  },
+  {
+   "q": "Which of the following best serves as the title of the passage?",
+   "options": [
+    "A Family Battle with an Old Stove",
+    "A Recipe That Refuses to Be Complete",
+    "The Secret of Penang Fish Soup",
+    "How to Write Recipe Cards Properly"
+   ],
+   "answer": 1,
+   "note": "全文主旨：食譜卡的「不完整」恰恰揭示了知識由人承載、無法完全紙面化的主題（末段 some kinds of knowledge are held by people, not paper）。A 項以「拒絕完整」點題；A、C 只觸及細節；D 項把文章誤讀為實用指導。"
+  }
+ ]
+}

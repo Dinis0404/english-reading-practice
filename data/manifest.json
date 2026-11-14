@@ -1,0 +1,22 @@
+{
+  "cloze": [
+    { "id": "c01", "title": "A Summer at the Nursing Home", "genre": "記敘文", "level": "高三", "style": "高考風", "blanks": 15, "minutes": 15 },
+    { "id": "c02", "title": "The Pool I Feared", "genre": "記敘文", "level": "高三", "style": "高考風", "blanks": 15, "minutes": 15 },
+    { "id": "c03", "title": "Why Your Brain Studies While You Sleep", "genre": "說明文", "level": "高三", "style": "學測風", "blanks": 15, "minutes": 15 },
+    { "id": "c04", "title": "The Night Market: More Than Food", "genre": "說明文", "level": "高三", "style": "學測風", "blanks": 15, "minutes": 15 },
+    { "id": "c05", "title": "The Cost of Being Always Reachable", "genre": "議論文", "level": "高三", "style": "DSE風", "blanks": 15, "minutes": 15 },
+    { "id": "c06", "title": "Lost on Yushan", "genre": "記敘文", "level": "高三", "style": "通用", "blanks": 15, "minutes": 15 },
+    { "id": "c07", "title": "The Octopus: An Alien Mind", "genre": "科普", "level": "進階", "style": "通用", "blanks": 15, "minutes": 15 },
+    { "id": "c08", "title": "The Words We Teach Ourselves", "genre": "議論文", "level": "進階", "style": "DSE風", "blanks": 15, "minutes": 15 }
+  ],
+  "reading": [
+    { "id": "r01", "title": "Grandmother's Recipe Card", "genre": "敘事", "level": "高三", "style": "高考風", "questions": 4, "minutes": 8 },
+    { "id": "r02", "title": "The Rainbow Under the Sea", "genre": "科普", "level": "高三", "style": "通用", "questions": 4, "minutes": 8 },
+    { "id": "r03", "title": "How Habits Really Work", "genre": "社科", "level": "高三", "style": "通用", "questions": 4, "minutes": 8 },
+    { "id": "r04", "title": "The Museum Without Walls", "genre": "文化", "level": "高三", "style": "學測風", "questions": 4, "minutes": 8 },
+    { "id": "r05", "title": "Should AI Mark Your Essays?", "genre": "議論", "level": "進階", "style": "DSE風", "questions": 4, "minutes": 8 },
+    { "id": "r06", "title": "The Truth About Caffeine", "genre": "說明", "level": "高三", "style": "通用", "questions": 4, "minutes": 8 },
+    { "id": "r07", "title": "Green Walls for Hot Cities", "genre": "環境", "level": "高三", "style": "通用", "questions": 4, "minutes": 8 },
+    { "id": "r08", "title": "Harbour Youth Volunteering Programme", "genre": "應用文", "level": "高三", "style": "DSE風", "questions": 4, "minutes": 8 }
+  ]
+}
