@@ -352,6 +352,12 @@ input:focus{border-color:var(--accent)}
 .switch.on{background:var(--good)}
 .switch.on::after{left:22px}
 
+/* 雲端設定嚮導 */
+.wizard-step{display:flex;gap:10px;margin-bottom:14px;font-size:14.5px;line-height:1.75}
+.wizard-num{width:24px;height:24px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:13px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;margin-top:2px}
+.wizard-hint{display:block;font-size:12.5px;color:var(--faint);margin-top:2px}
+.wizard pre{max-height:150px;overflow:auto;background:var(--chip);padding:10px;border-radius:10px;font-size:11px;line-height:1.5;margin-top:8px;user-select:text;-webkit-user-select:text}
+
 /* 登入 */
 .auth-tabs{display:flex;gap:6px;margin-bottom:16px}
 .pf-list{display:flex;flex-direction:column;gap:10px}

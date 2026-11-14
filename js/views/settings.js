@@ -1,16 +1,16 @@
-// 設定頁：主題、雲端同步、使用說明、資料管理
+// 設定頁：主題、雲端同步、進度備份、使用說明、資料管理
 import { el, toast, confirmDialog, modal } from "../util.js";
 import { settings, saveSettings, applyTheme, state, clearLocalHistory, switchToGate } from "../store.js";
 import { renderTopbar } from "../ui.js";
 import { sync, cloudConfigured } from "../sync.js";
+import { downloadBackup, importBackupFile } from "../backup.js";
 
 export function renderSettings(ctx) {
   renderTopbar({ title: "設定", back: () => ctx.go("#/home") });
   const view = document.getElementById("view");
   view.innerHTML = "";
   view.classList.add("page-narrow");
-  const cleanup = [];
-  ctx.onLeave(() => { cleanup.forEach((fn) => fn()); view.classList.remove("page-narrow"); });
+  ctx.onLeave(() => view.classList.remove("page-narrow"));
 
   // ---- 深色模式 ----
   const themeSeg = el("div", { class: "seg", style: "width:220px" });
@@ -31,7 +31,11 @@ export function renderSettings(ctx) {
   if (!cloudConfigured) {
     accountCard.append(
       el("div", { class: "set-row" },
-        el("div", { class: "lab" }, "雲端同步", el("span", { class: "hint" }, "尚未設定。填入免費 Supabase 專案資訊後，不同設備可用同一帳號登入並同步成績。")),
+        el("div", { class: "lab" }, "雲端同步（自動跨設備）", el("span", { class: "hint" }, "尚未設定。需要一個免費 Supabase 專案；跟著嚮導約 5 分鐘完成，之後不同設備以帳號登入即自動同步。")),
+      ),
+      el("div", { class: "set-row" },
+        el("button", { class: "btn", onclick: openCloudWizard }, "☁️ 雲端同步設定嚮導"),
+        el("button", { class: "btn small secondary", style: "margin-left:auto", onclick: () => toast("不用雲端也可以：用下面的「進度備份」手動搬運成績") }, "先跳過"),
       ),
       el("div", { class: "set-row" },
         el("div", { class: "lab" }, `目前身分：${state.profileName}（本機訪客）`),
@@ -58,10 +62,38 @@ export function renderSettings(ctx) {
     );
   }
 
+  // ---- 進度備份（免帳號搬運） ----
+  const fileInput = el("input", { type: "file", accept: "application/json,.json", style: "display:none" });
+  fileInput.addEventListener("change", async () => {
+    const f = fileInput.files && fileInput.files[0];
+    fileInput.value = "";
+    if (!f) return;
+    try {
+      const s = await importBackupFile(f);
+      toast(`已匯入：使用者 ${s.profilesAdded} 個、記錄 ${s.attemptsAdded} 筆、記號 ${s.marksAdded} 份`);
+    } catch (e) {
+      toast("匯入失敗：" + (e.message || "檔案格式不正確"));
+    }
+  });
+  const backupCard = el("div", { class: "card set-group" },
+    fileInput,
+    el("div", { class: "set-row" },
+      el("div", { class: "lab" }, "匯出進度檔案", el("span", { class: "hint" }, "把全部使用者的成績與手寫記號打包成一個 JSON 檔，AirDrop / iCloud / 微信傳到另一台設備")),
+      el("button", {
+        class: "btn small",
+        onclick: () => { downloadBackup(); toast("備份檔已匯出"); },
+      }, "匯出"),
+    ),
+    el("div", { class: "set-row" },
+      el("div", { class: "lab" }, "匯入進度檔案", el("span", { class: "hint" }, "選擇備份檔後自動合併（重複記錄不會重複計算，本機已有的記號不會被覆蓋）")),
+      el("button", { class: "btn small secondary", onclick: () => fileInput.click() }, "選擇檔案"),
+    ),
+  );
+
   // ---- 資料 ----
   const dataCard = el("div", { class: "card set-group" },
     el("div", { class: "set-row" },
-      el("div", { class: "lab" }, "清除本設備的作答記錄", el("span", { class: "hint" }, "只清除此使用者的本機記錄，不影響雲端資料")),
+      el("div", { class: "lab" }, "清除本設備的作答記錄", el("span", { class: "hint" }, "只清除此使用者的本機記錄，不影響雲端資料；建議先匯出備份")),
       el("button", {
         class: "btn small danger",
         onclick: () => confirmDialog("清除記錄？", "此設備上此使用者的所有作答記錄將被刪除，無法復原。", "清除", () => {
@@ -80,12 +112,6 @@ export function renderSettings(ctx) {
     },
       el("div", { class: "lab" }, "📖 使用說明（iPad 操作）"),
     ),
-    el("button", {
-      class: "set-row", style: "width:100%;text-align:left",
-      onclick: () => modal({ title: "雲端同步設定（Supabase）", body: cloudHelpHtml(), actions: [{ label: "知道了", kind: "" }] }),
-    },
-      el("div", { class: "lab" }, "☁️ 雲端同步設定指南"),
-    ),
   );
 
   view.append(
@@ -96,6 +122,7 @@ export function renderSettings(ctx) {
       ),
     ),
     accountCard,
+    backupCard,
     dataCard,
     helpCard,
     el("p", { style: "text-align:center;color:var(--faint);font-size:12px;margin-top:10px" },
@@ -103,53 +130,8 @@ export function renderSettings(ctx) {
   );
 }
 
-function helpHtml() {
-  return `
-  <h3>🏠 題庫首頁</h3>
-  <ol>
-    <li>上方可切換「完形填空 / 閱讀理解」，並依難度、文體篩選。</li>
-    <li>每張卡片顯示練習次數與最佳成績，點「開始練習」進入。</li>
-  </ol>
-  <h3>✍️ 作答</h3>
-  <ol>
-    <li>進入題組後先選「限時挑戰」或「不限時練習」。</li>
-    <li>橫向持 iPad 時為雙欄：左邊文章、右邊題目；直向時文章在上、題目在下。</li>
-    <li>完形填空：在右側點選答案，左側文章的空格會即時填入單字；點文章中的空格可跳到對應題目。</li>
-    <li>作答中不顯示答案、不能查詞（模擬真實考試）。計時歸零會自動交卷。</li>
-  </ol>
-  <h3>🔍 復盤解析（完成後）</h3>
-  <ol>
-    <li>交卷後進入復盤：總分、正確率、用時一目了然。</li>
-    <li>逐題顯示你的答案、正確答案與中文解析；完形填空還會列出該空所在的句子。</li>
-    <li>左側原文此時開放<b>點詞查義</b>：點任何英文單字即顯示音標與中文釋義。</li>
-    <li>可用「只看錯題」篩選，或點「再做一次」重刷。</li>
-  </ol>
-  <h3>✏️ 手寫記號（Apple Pencil / 手指）</h3>
-  <ol>
-    <li>文章欄標題列點「✏️ 記號」開啟畫筆模式，再選原子筆（紅/藍/黑）或螢光筆（黃/綠）。</li>
-    <li>直接在文章上寫字、畫線、圈重點；開啟「✍️ 僅 Pencil」可防止手掌誤觸。</li>
-    <li>記號模式開啟時文章無法捲動（手指用來畫畫），畫完切回即可正常捲動。</li>
-    <li>記號按「使用者 + 題組」自動保存：下次打開同一篇還在，復盤頁也能繼續標註。</li>
-  </ol>
-  <h3>💡 小技巧</h3>
-  <ul>
-    <li>用 Safari 開啟 → 分享 → 「加入主畫面」，即可像 App 一樣全螢幕使用。</li>
-    <li>同一部設備可在首頁右上角「設定 → 切換使用者」建立多個訪客檔案（可加 PIN）。</li>
-  </ul>`;
-}
-
-function cloudHelpHtml() {
-  return `
-  <p>雲端同步使用免費的 <b>Supabase</b> 服務（依下列步驟約 5 分鐘完成）：</p>
-  <ol>
-    <li>到 <code>supabase.com</code> 註冊並建立新專案（免費）。</li>
-    <li>專案建立後，進入 <b>SQL Editor</b>，貼上並執行下方 SQL（建立資料表與權限規則）。</li>
-    <li>進入 <b>Project Settings → API</b>，複製 <b>Project URL</b> 與 <b>anon public key</b>。</li>
-    <li>把這兩項填入網站倉庫的 <code>js/config.js</code>（交由管理者更新網站）。</li>
-    <li>建議到 <b>Authentication → Providers → Email</b> 關閉「Confirm email」，註冊即可即時登入。</li>
-  </ol>
-  <pre>-- 建立資料表（SQL Editor 執行）
-create table public.profiles (
+// ---- 雲端設定嚮導 ----
+const SUPABASE_SQL = `create table public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   display_name text not null default '學習者',
   created_at timestamptz default now()
@@ -188,6 +170,107 @@ begin
   return new;
 end; $$;
 create trigger on_auth_user_created after insert on auth.users
-  for each row execute function public.handle_new_user();</pre>
-  <p>完成後重新整理網站，即可「登入 / 註冊」。每位使用者用自己的 email 註冊，成績各自獨立、跨設備同步。</p>`;
+  for each row execute function public.handle_new_user();`;
+
+function copySql(btn) {
+  const done = () => { btn.textContent = "✓ 已複製"; setTimeout(() => (btn.textContent = "📋 複製 SQL"), 1800); };
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(SUPABASE_SQL).then(done).catch(() => fallbackCopy(done));
+  } else fallbackCopy(done);
+}
+function fallbackCopy(done) {
+  const ta = document.createElement("textarea");
+  ta.value = SUPABASE_SQL;
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.append(ta);
+  ta.select();
+  try { document.execCommand("copy"); done(); } catch { toast("複製失敗，請手動全選 SQL 文字複製"); }
+  ta.remove();
+}
+
+function openCloudWizard() {
+  const body = el("div", { class: "wizard" },
+    el("div", { class: "wizard-step" },
+      el("div", { class: "wizard-num" }, "1"),
+      el("div", {},
+        el("b", {}, "建立免費專案："),
+        "到 ", el("a", { href: "https://supabase.com", target: "_blank", rel: "noopener", style: "color:var(--accent)" }, "supabase.com"),
+        " 註冊並點 New project（免費方案足夠）。", el("span", { class: "wizard-hint" }, "需要你的信箱驗證，所以這一步要你自己來。"),
+      ),
+    ),
+    el("div", { class: "wizard-step" },
+      el("div", { class: "wizard-num" }, "2"),
+      el("div", {},
+        el("b", {}, "執行建表 SQL："),
+        "專案頁左側選 SQL Editor → New query，貼上下方 SQL 並按 Run。",
+        el("div", { style: "margin-top:8px" },
+          el("button", { class: "btn small", onclick: (e) => copySql(e.currentTarget) }, "📋 複製 SQL"),
+        ),
+        el("pre", { style: "max-height:150px;overflow:auto" }, SUPABASE_SQL),
+      ),
+    ),
+    el("div", { class: "wizard-step" },
+      el("div", { class: "wizard-num" }, "3"),
+      el("div", {},
+        el("b", {}, "取得金鑰："),
+        "Project Settings → API，複製 ", el("b", {}, "Project URL"), " 與 ", el("b", {}, "anon public key"),
+        "。", el("span", { class: "wizard-hint" }, "anon key 是設計上可公開的金鑰，資料讀寫由 SQL 裡的安全規則限制為「僅本人」。"),
+      ),
+    ),
+    el("div", { class: "wizard-step" },
+      el("div", { class: "wizard-num" }, "4"),
+      el("div", {},
+        el("b", {}, "完成接入："),
+        "把這兩個值交給網站管理者填入 ", el("code", {}, "js/config.js"), " 並重新部署。",
+        "建議同時到 Authentication → Providers → Email 關閉「Confirm email」，註冊即可即時登入。",
+        el("span", { class: "wizard-hint" }, "完成後重新整理網站，入口頁就會出現「雲端帳號登入/註冊」。"),
+      ),
+    ),
+    el("p", { style: "font-size:13px;color:var(--muted);margin-top:12px" },
+      "不想設定雲端？用「進度備份」的匯出/匯入也能搬運成績，完全免帳號。"),
+  );
+  modal({ title: "☁️ 雲端同步設定嚮導", body, actions: [{ label: "知道了", kind: "" }] });
+}
+
+function helpHtml() {
+  return `
+  <h3>🏠 題庫首頁</h3>
+  <ol>
+    <li>上方可切換「完形填空 / 閱讀理解」，並依難度、文體篩選。</li>
+    <li>每張卡片顯示練習次數與最佳成績，點「開始練習」進入。</li>
+  </ol>
+  <h3>✍️ 作答</h3>
+  <ol>
+    <li>進入題組後先選「限時挑戰」或「不限時練習」。</li>
+    <li>橫向持 iPad 時為雙欄：左邊文章、右邊題目；直向時文章在上、題目在下。</li>
+    <li>完形填空：在右側點選答案，左側文章的空格會即時填入單字；點文章中的空格可跳到對應題目。</li>
+    <li>作答中不顯示答案、不能查詞（模擬真實考試）。計時歸零會自動交卷。</li>
+  </ol>
+  <h3>✏️ 手寫記號（Apple Pencil / 手指）</h3>
+  <ol>
+    <li>文章欄標題列點「✏️ 記號」開啟畫筆模式，再選原子筆（紅/藍/黑）或螢光筆（黃/綠）。</li>
+    <li>直接在文章上寫字、畫線、圈重點；開啟「✍️ 僅 Pencil」可防止手掌誤觸。</li>
+    <li>記號模式開啟時文章無法捲動（手指用來畫畫），畫完切回即可正常捲動。</li>
+    <li>記號按「使用者 + 題組」自動保存：下次打開同一篇還在，復盤頁也能繼續標註。</li>
+  </ol>
+  <h3>🔍 復盤解析（完成後）</h3>
+  <ol>
+    <li>交卷後進入復盤：總分、正確率、用時一目了然。</li>
+    <li>逐題顯示你的答案、正確答案與中文解析；完形填空還會列出該空所在的句子。</li>
+    <li>左側原文此時開放<b>點詞查義</b>：點任何英文單字即顯示音標與中文釋義。</li>
+    <li>可用「只看錯題」篩選，或點「再做一次」重刷。</li>
+  </ol>
+  <h3>💾 換設備搬運成績</h3>
+  <ol>
+    <li>設定 → 進度備份 → 「匯出進度檔案」，得到一個 JSON 檔。</li>
+    <li>用 AirDrop / iCloud 檔案 / 微信把檔案傳到另一台設備。</li>
+    <li>另一台設備同網站 → 設定 → 「匯入進度檔案」選該檔案，自動合併去重。</li>
+    <li>想要自動同步（免手動）才需要設定雲端：見「雲端同步設定嚮導」。</li>
+  </ol>
+  <h3>💡 小技巧</h3>
+  <ul>
+    <li>用 Safari 開啟 → 分享 → 「加入主畫面」，即可像 App 一樣全螢幕使用。</li>
+    <li>同一部設備可在首頁右上角「設定 → 切換使用者」建立多個訪客檔案（可加 PIN）。</li>
+  </ul>`;
 }
