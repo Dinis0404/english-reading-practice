@@ -9,6 +9,7 @@ export function collectBackup() {
   const profiles = JSON.parse(localStorage.getItem("erp_profiles") || "[]");
   const attempts = {};
   const marks = {};
+  const vocab = {};
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
     if (key.startsWith("erp_data_") || key.startsWith("erp_cloud_")) {
@@ -21,13 +22,18 @@ export function collectBackup() {
         const val = JSON.parse(localStorage.getItem(key));
         if (val && val.strokes?.length) marks[key] = val;
       } catch {}
+    } else if (key.startsWith("erp_vocab_")) {
+      try {
+        const val = JSON.parse(localStorage.getItem(key));
+        if (val && (Array.isArray(val) ? val.length : Object.keys(val).length)) vocab[key] = val;
+      } catch {}
     }
   }
   return {
     app: APP_ID,
     v: VERSION,
     exportedAt: new Date().toISOString(),
-    data: { profiles, attempts, marks },
+    data: { profiles, attempts, marks, vocab },
   };
 }
 
@@ -54,7 +60,7 @@ export function importBackupObject(obj) {
     throw new Error("不是本網站的備份檔（或版本不符）");
   }
   const data = obj.data || {};
-  const summary = { profilesAdded: 0, attemptsAdded: 0, marksAdded: 0 };
+  const summary = { profilesAdded: 0, attemptsAdded: 0, marksAdded: 0, vocabAdded: 0 };
 
   // 訪客檔案：id 不存在才新增
   if (Array.isArray(data.profiles)) {
@@ -94,6 +100,43 @@ export function importBackupObject(obj) {
       if (!localStorage.getItem(mKey) && val && Array.isArray(val.strokes)) {
         localStorage.setItem(mKey, JSON.stringify(val));
         summary.marksAdded++;
+      }
+    }
+  }
+
+  // 背單字進度/生字本：逐詞合併——本地沒有的照收，衝突取箱數較高（進度較遠）的一方
+  if (data.vocab && typeof data.vocab === "object") {
+    for (const [vKey, incoming] of Object.entries(data.vocab)) {
+      let raw;
+      try { raw = JSON.parse(localStorage.getItem(vKey) || "null"); } catch { raw = null; }
+      if (!raw) {
+        localStorage.setItem(vKey, JSON.stringify(incoming));
+        summary.vocabAdded++;
+        continue;
+      }
+      if (Array.isArray(raw) && Array.isArray(incoming)) {
+        // 自訂生字本陣列：按 id 去重合併
+        const ids = new Set(raw.map((x) => x.id));
+        let added = 0;
+        for (const item of incoming) {
+          if (item && !ids.has(item.id)) { raw.push(item); ids.add(item.id); added++; }
+        }
+        if (added) {
+          localStorage.setItem(vKey, JSON.stringify(raw));
+          summary.vocabAdded += added;
+        }
+      } else if (raw && typeof raw === "object") {
+        // 背詞進度物件：逐詞取 box 較高者
+        let added = 0;
+        for (const [uid, st] of Object.entries(incoming)) {
+          const local = raw[uid];
+          if (!local) { raw[uid] = st; added++; }
+          else if ((st.box || 0) > (local.box || 0)) { raw[uid] = st; added++; }
+        }
+        if (added) {
+          localStorage.setItem(vKey, JSON.stringify(raw));
+          summary.vocabAdded += added;
+        }
       }
     }
   }

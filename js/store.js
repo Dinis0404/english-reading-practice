@@ -188,3 +188,67 @@ export function bestScoreOf(setId) {
 export function attemptCountOf(setId) {
   return getAttempts().filter((a) => a.setId === setId).length;
 }
+
+// ---- 背單字進度（Leitner 三箱：0=新/重學 1=學習中 2=掌握） ----
+function vocabKey() {
+  return "erp_vocab_" + (state.profileId || "anon");
+}
+
+export function getVocabProgress() {
+  try { return JSON.parse(localStorage.getItem(vocabKey()) || "{}"); } catch { return {}; }
+}
+
+export function setWordStatus(uid, known) {
+  const prog = getVocabProgress();
+  const cur = prog[uid] || { box: 0, seen: 0, wrong: 0, ts: 0 };
+  cur.seen++;
+  if (known) cur.box = Math.min(2, cur.box + 1);
+  else { cur.box = 0; cur.wrong++; }
+  cur.ts = Date.now();
+  prog[uid] = cur;
+  localStorage.setItem(vocabKey(), JSON.stringify(prog));
+  return cur;
+}
+
+export function setWordBox(uid, box) {
+  const prog = getVocabProgress();
+  const cur = prog[uid] || { box: 0, seen: 0, wrong: 0, ts: 0 };
+  cur.box = box;
+  cur.ts = Date.now();
+  prog[uid] = cur;
+  localStorage.setItem(vocabKey(), JSON.stringify(prog));
+}
+
+export function vocabStats() {
+  const prog = getVocabProgress();
+  const s = { mastered: 0, learning: 0, seen: 0 };
+  for (const uid of Object.keys(prog)) {
+    s.seen++;
+    if (prog[uid].box >= 2) s.mastered++;
+    else s.learning++;
+  }
+  return s;
+}
+
+// ---- 自訂生字本（從閱讀查詞時加入） ----
+function customKey() {
+  return "erp_vocab_custom_" + (state.profileId || "anon");
+}
+
+export function listCustomWords() {
+  try { return JSON.parse(localStorage.getItem(customKey()) || "[]"); } catch { return []; }
+}
+
+export function addCustomWord(w, zh, pos = "") {
+  const list = listCustomWords();
+  const key = w.trim().toLowerCase();
+  if (!key || list.some((x) => x.w.toLowerCase() === key)) return false;
+  list.push({ id: "custom-" + Date.now().toString(36), w: w.trim(), zh, pos, addedAt: new Date().toISOString() });
+  localStorage.setItem(customKey(), JSON.stringify(list));
+  return true;
+}
+
+export function removeCustomWord(id) {
+  const list = listCustomWords().filter((x) => x.id !== id);
+  localStorage.setItem(customKey(), JSON.stringify(list));
+}

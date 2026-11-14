@@ -1,9 +1,11 @@
 // 點詞查義：ECDICT 子集 + 詞形還原（不規則變化表 + 規則推導）
 // 資料按需載入：只在復盤頁第一次點詞時抓取。
-import { esc } from "./util.js";
+import { el, toast } from "./util.js";
+import { addCustomWord } from "./store.js";
 
 let dict = null;   // { word: [phonetic, translation] }
 let forms = null;  // { inflected: base }
+let lastHit = null;
 
 async function ensureLoaded() {
   if (dict) return;
@@ -68,12 +70,23 @@ function lookupWord(w) {
 
 // ---- UI：底部詞義卡 ----
 let sheetBound = false;
+let addBtn = null;
 function ensureSheetBindings() {
   if (sheetBound) return;
   sheetBound = true;
   const sheet = document.getElementById("dict-sheet");
   document.getElementById("dict-close").addEventListener("click", hideWordLookup);
   sheet.querySelector(".sheet-mask").addEventListener("click", hideWordLookup);
+  addBtn = el("button", {
+    class: "btn small ghost", style: "margin-top:14px",
+    onclick: () => {
+      if (!lastHit) return;
+      const ok = addCustomWord(lastHit.origin || lastHit.word, lastHit.meaning);
+      toast(ok ? "已加入生字本，可在「背單字」練習" : "生字本裡已經有這個字了");
+      if (ok) { addBtn.textContent = "✓ 已在生字本"; addBtn.disabled = true; }
+    },
+  }, "＋ 加入生字本");
+  sheet.querySelector(".sheet-panel").append(addBtn);
 }
 
 export async function showWordLookup(rawWord) {
@@ -87,15 +100,21 @@ export async function showWordLookup(rawWord) {
   wordEl.textContent = rawWord;
   phEl.textContent = "查詢中…";
   meanEl.textContent = "";
+  addBtn.classList.add("hidden");
+  lastHit = null;
   sheet.classList.remove("hidden");
   try {
     await ensureLoaded();
     const hit = lookupWord(word);
     if (hit) {
+      lastHit = hit;
       wordEl.textContent = hit.origin && hit.origin !== hit.word
         ? `${rawWord}（原形：${hit.word}）` : rawWord;
       phEl.textContent = hit.phonetic ? "/" + hit.phonetic + "/" : "";
       meanEl.textContent = hit.meaning;
+      addBtn.textContent = "＋ 加入生字本";
+      addBtn.disabled = false;
+      addBtn.classList.remove("hidden");
     } else {
       phEl.textContent = "";
       meanEl.textContent = "詞典中未收錄這個詞形。";

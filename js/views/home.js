@@ -45,6 +45,11 @@ export async function renderHome(ctx) {
       onclick: () => { tab = t; filterLv = "全部"; filterGenre = "全部"; paintTabs(); paintFilters(); paintList(); },
     }, TYPE_LABEL[t]));
   }
+  tabs.append(el("button", {
+    class: "tab",
+    style: "flex:0.7",
+    onclick: () => ctx.go("#/vocab"),
+  }, "📖 背單字"));
   view.append(tabs);
 
   // ---- 篩選列 ----

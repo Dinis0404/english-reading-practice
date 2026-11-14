@@ -7,6 +7,7 @@ import { renderRun } from "./views/run.js";
 import { renderReview } from "./views/review.js";
 import { renderHistory } from "./views/history.js";
 import { renderSettings } from "./views/settings.js";
+import { renderVocab, renderVocabFlash, renderVocabQuiz, renderVocabList } from "./views/vocab.js";
 import { toast } from "./util.js";
 
 const ctx = {
@@ -45,6 +46,11 @@ async function route() {
       await renderReview(ctx, parts[1], parts[2], decodeURIComponent(parts[3]));
     } else if (parts[0] === "history") {
       await renderHistory(ctx);
+    } else if (parts[0] === "vocab") {
+      if (parts[1] === "flash") await renderVocabFlash(ctx, parts[2] || "w1");
+      else if (parts[1] === "quiz") await renderVocabQuiz(ctx, parts[2] || "w1");
+      else if (parts[1] === "list") await renderVocabList(ctx, parts[2] || "w1");
+      else await renderVocab(ctx);
     } else if (parts[0] === "settings") {
       renderSettings(ctx);
     } else {
@@ -63,6 +69,12 @@ async function boot() {
   loadSettings();
   applyTheme();
   await sync.init();
+
+  // 離線支援（僅正式部署環境註冊，本地開發不註冊以免緩存干擾）
+  if ("serviceWorker" in navigator && location.protocol === "https:" &&
+      !["localhost", "127.0.0.1"].includes(location.hostname)) {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
 
   // 雲端會話恢復
   if (cloudConfigured && sync.session) {
