@@ -3,6 +3,7 @@
 import { el, fmtClock, confirmDialog, toast } from "../util.js";
 import { loadSet, saveAttempt, makeAttempt, bestScoreOf } from "../store.js";
 import { renderTopbar, timerChip } from "../ui.js";
+import { attachMarks } from "../marks.js";
 
 export async function renderRun(ctx, type, id) {
   const setData = await loadSet(type, id);
@@ -217,4 +218,8 @@ async function runQuiz(ctx, type, id, setData, timed) {
   }
 
   updateProgress();
+
+  // ---- 手寫記號（Apple Pencil / 手指）----
+  const marks = attachMarks({ paneEl: passagePane, scrollEl: passageScroll, contentEl: passageText, setId: id });
+  ctx.onLeave(() => marks.destroy());
 }

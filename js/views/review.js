@@ -3,6 +3,7 @@ import { el, fmtDuration, fmtDate, confirmDialog } from "../util.js";
 import { loadSet, getAttempt, bestScoreOf, attemptCountOf } from "../store.js";
 import { renderTopbar } from "../ui.js";
 import { showWordLookup, hideWordLookup, makeWordsTappable } from "../dict.js";
+import { attachMarks } from "../marks.js";
 
 export async function renderReview(ctx, type, id, attemptKey) {
   const setData = await loadSet(type, id);
@@ -144,8 +145,9 @@ export async function renderReview(ctx, type, id, attemptKey) {
     if (card) card.scrollIntoView({ behavior: "smooth", block: "center" });
   });
 
-  // 離開時關閉詞義卡
-  ctx.onLeave(() => hideWordLookup());
+  // 手寫記號（與點詞查義互斥：記號模式開啟時畫布攔截點擊）
+  const marks = attachMarks({ paneEl: passagePane, scrollEl: pScroll, contentEl: pText, setId: id });
+  ctx.onLeave(() => { hideWordLookup(); marks.destroy(); });
 }
 
 function ctxSentence(setData, qi) {
